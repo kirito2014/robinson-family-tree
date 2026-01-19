@@ -1,0 +1,37 @@
+module.exports=[93108,a=>{"use strict";a.s(["default",()=>b]);let b=(0,a.i(11857).registerClientReference)(function(){throw Error("Attempted to call the default export of [project]/src/providers/QueryProvider.tsx <module evaluation> from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/src/providers/QueryProvider.tsx <module evaluation>","default")},69333,a=>{"use strict";a.s(["default",()=>b]);let b=(0,a.i(11857).registerClientReference)(function(){throw Error("Attempted to call the default export of [project]/src/providers/QueryProvider.tsx from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/src/providers/QueryProvider.tsx","default")},60069,a=>{"use strict";a.i(93108);var b=a.i(69333);a.n(b)},65423,a=>{"use strict";a.s(["default",()=>c,"useToast",()=>d]);var b=a.i(11857);let c=(0,b.registerClientReference)(function(){throw Error("Attempted to call the default export of [project]/src/providers/ToastProvider.tsx <module evaluation> from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/src/providers/ToastProvider.tsx <module evaluation>","default"),d=(0,b.registerClientReference)(function(){throw Error("Attempted to call useToast() from the server but useToast is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/src/providers/ToastProvider.tsx <module evaluation>","useToast")},84535,a=>{"use strict";a.s(["default",()=>c,"useToast",()=>d]);var b=a.i(11857);let c=(0,b.registerClientReference)(function(){throw Error("Attempted to call the default export of [project]/src/providers/ToastProvider.tsx from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/src/providers/ToastProvider.tsx","default"),d=(0,b.registerClientReference)(function(){throw Error("Attempted to call useToast() from the server but useToast is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/src/providers/ToastProvider.tsx","useToast")},27326,a=>{"use strict";a.i(65423);var b=a.i(84535);a.n(b)},21793,a=>{"use strict";a.s(["default",()=>c,"useUndoRedo",()=>d]);var b=a.i(11857);let c=(0,b.registerClientReference)(function(){throw Error("Attempted to call the default export of [project]/src/providers/UndoRedoProvider.tsx <module evaluation> from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/src/providers/UndoRedoProvider.tsx <module evaluation>","default"),d=(0,b.registerClientReference)(function(){throw Error("Attempted to call useUndoRedo() from the server but useUndoRedo is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/src/providers/UndoRedoProvider.tsx <module evaluation>","useUndoRedo")},36125,a=>{"use strict";a.s(["default",()=>c,"useUndoRedo",()=>d]);var b=a.i(11857);let c=(0,b.registerClientReference)(function(){throw Error("Attempted to call the default export of [project]/src/providers/UndoRedoProvider.tsx from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/src/providers/UndoRedoProvider.tsx","default"),d=(0,b.registerClientReference)(function(){throw Error("Attempted to call useUndoRedo() from the server but useUndoRedo is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/src/providers/UndoRedoProvider.tsx","useUndoRedo")},79147,a=>{"use strict";a.i(21793);var b=a.i(36125);a.n(b)},33290,a=>{"use strict";var b=a.i(7997),c=a.i(60069),d=a.i(27326),e=a.i(79147);function f({children:a}){return(0,b.jsxs)("html",{lang:"en",className:"light",children:[(0,b.jsxs)("head",{children:[(0,b.jsx)("link",{rel:"preconnect",href:"https://fonts.googleapis.com"}),(0,b.jsx)("link",{rel:"preconnect",href:"https://fonts.gstatic.com",crossOrigin:"anonymous"}),(0,b.jsx)("link",{href:"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",rel:"stylesheet"}),(0,b.jsx)("link",{href:"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap",rel:"stylesheet"}),(0,b.jsx)("script",{src:"https://cdn.tailwindcss.com?plugins=forms,container-queries"}),(0,b.jsx)("script",{dangerouslySetInnerHTML:{__html:`
+          tailwind.config = {
+            darkMode: "class",
+            theme: {
+              extend: {
+                colors: {
+                  primary: { DEFAULT: "#80ec13", dark: "#6bc50e", light: "#a3f055" },
+                  background: { light: "#FAFAF5", dark: "#192210" },
+                  card: { light: "rgba(255, 255, 255, 0.7)", dark: "rgba(30, 30, 30, 0.6)" }
+                },
+                fontFamily: { display: ["Inter", "sans-serif"] },
+                backgroundImage: {
+                  'grid-pattern': "radial-gradient(#d4d4d8 1px, transparent 1px)",
+                  'grid-pattern-dark': "radial-gradient(#3f3f46 1px, transparent 1px)",
+                },
+                keyframes: {
+                  'slide-in': {
+                    '0%': { transform: 'translateX(100%)', opacity: '0' },
+                    '100%': { transform: 'translateX(0)', opacity: '1' }
+                  }
+                },
+                animation: {
+                  'slide-in': 'slide-in 0.3s ease-out'
+                }
+              }
+            }
+          }
+        `}}),(0,b.jsx)("style",{dangerouslySetInnerHTML:{__html:`
+          body { font-family: 'Inter', sans-serif; }
+          .bg-grid { background-size: 24px 24px; }
+          .no-scrollbar::-webkit-scrollbar { display: none; }
+          .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+          input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; height: 20px; width: 20px; border-radius: 50%; background: #ffffff; border: 4px solid #80ec13; cursor: pointer; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-top: -8px; }
+          input[type=range]::-webkit-slider-runnable-track { width: 100%; height: 4px; cursor: pointer; background: transparent; border-radius: 9999px; }
+        `}})]}),(0,b.jsx)("body",{className:"bg-background-light dark:bg-background-dark text-slate-900 dark:text-white h-screen overflow-hidden selection:bg-primary selection:text-black",children:(0,b.jsx)(c.default,{children:(0,b.jsx)(d.default,{children:(0,b.jsx)(e.default,{children:a})})})})]})}a.s(["default",()=>f,"metadata",0,{title:"Robinson Family Tree",description:"A modern, interactive family heritage platform."}])}];
+
+//# sourceMappingURL=_18c2c323._.js.map

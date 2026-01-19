@@ -1,0 +1,3848 @@
+module.exports = [
+"[externals]/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js [external] (next/dist/compiled/next-server/app-page-turbo.runtime.dev.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/compiled/next-server/app-page-turbo.runtime.dev.js", () => require("next/dist/compiled/next-server/app-page-turbo.runtime.dev.js"));
+
+module.exports = mod;
+}),
+"[project]/app/data:51760c [app-ssr] (ecmascript) <text/javascript>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "getMembersAction",
+    ()=>$$RSC_SERVER_ACTION_0
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-client-wrapper.js [app-ssr] (ecmascript)");
+/* __next_internal_action_entry_do_not_use__ [{"0024f6b3bb0041b116f544985cf2e67b94c3ca660b":"getMembersAction"},"app/actions.ts",""] */ "use turbopack no side effects";
+;
+const $$RSC_SERVER_ACTION_0 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createServerReference"])("0024f6b3bb0041b116f544985cf2e67b94c3ca660b", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["callServer"], void 0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["findSourceMapURL"], "getMembersAction");
+;
+ //# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4vYWN0aW9ucy50cyJdLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIHNlcnZlcic7XG5cbmltcG9ydCB7IHByaXNtYSB9IGZyb20gJy4uL2xpYi9wcmlzbWEnO1xuaW1wb3J0IHsgRmFtaWx5TWVtYmVyLCBDb25uZWN0aW9uIH0gZnJvbSAnLi4vdHlwZXMnO1xuXG4vLyAtLS0gTWVtYmVycyAtLS1cblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldE1lbWJlcnNBY3Rpb24oKTogUHJvbWlzZTxGYW1pbHlNZW1iZXJbXT4ge1xuICBjb25zdCBtZW1iZXJzID0gYXdhaXQgcHJpc21hLm1lbWJlci5maW5kTWFueSgpO1xuICByZXR1cm4gbWVtYmVycy5tYXAobSA9PiAoe1xuICAgIC4uLm0sXG4gICAgZ2VuZGVyOiBtLmdlbmRlciBhcyAnbWFsZScgfCAnZmVtYWxlJyxcbiAgICAvLyBFbnN1cmUgc3RhbmRhcmQgdHlwZXMgbWF0Y2ggZnJvbnRlbmQgZXhwZWN0YXRpb25cbiAgfSkpO1xufVxuXG5leHBvcnQgYXN5bmMgZnVuY3Rpb24gc2F2ZU1lbWJlckFjdGlvbihtZW1iZXI6IEZhbWlseU1lbWJlcikge1xuICBjb25zdCB7IGlkLCAuLi5kYXRhIH0gPSBtZW1iZXI7XG4gIFxuICAvLyBJZiBzZXR0aW5nIGlzU2VsZj10cnVlLCB3ZSBuZWVkIHRvIHVuc2V0IG90aGVycyBmaXJzdCAodHJhbnNhY3Rpb25hbGx5IHdvdWxkIGJlIGJldHRlciwgYnV0IHNpbXBsaWZpZWQgaGVyZSlcbiAgaWYgKGRhdGEuaXNTZWxmKSB7XG4gICAgYXdhaXQgcHJpc21hLm1lbWJlci51cGRhdGVNYW55KHtcbiAgICAgIHdoZXJlOiB7IGlzU2VsZjogdHJ1ZSwgaWQ6IHsgbm90OiBpZCB9IH0sXG4gICAgICBkYXRhOiB7IGlzU2VsZjogZmFsc2UgfVxuICAgIH0pO1xuICB9XG5cbiAgYXdhaXQgcHJpc21hLm1lbWJlci51cHNlcnQoe1xuICAgIHdoZXJlOiB7IGlkIH0sXG4gICAgdXBkYXRlOiB7XG4gICAgICBuYW1lOiBkYXRhLm5hbWUsXG4gICAgICBuYW1lWmg6IGRhdGEubmFtZVpoLFxuICAgICAgcm9sZTogZGF0YS5yb2xlLFxuICAgICAgYmlydGhEYXRlOiBkYXRhLmJpcnRoRGF0ZSxcbiAgICAgIGRlYXRoRGF0ZTogZGF0YS5kZWF0aERhdGUsXG4gICAgICBsb2NhdGlvbjogZGF0YS5sb2NhdGlvbixcbiAgICAgIGF2YXRhcjogZGF0YS5hdmF0YXIsXG4gICAgICBiaW86IGRhdGEuYmlvLFxuICAgICAgZ2VuZGVyOiBkYXRhLmdlbmRlcixcbiAgICAgIGlzU2VsZjogZGF0YS5pc1NlbGYsXG4gICAgICB4OiBkYXRhLngsXG4gICAgICB5OiBkYXRhLnlcbiAgICB9LFxuICAgIGNyZWF0ZToge1xuICAgICAgaWQsXG4gICAgICBuYW1lOiBkYXRhLm5hbWUsXG4gICAgICBuYW1lWmg6IGRhdGEubmFtZVpoLFxuICAgICAgcm9sZTogZGF0YS5yb2xlLFxuICAgICAgYmlydGhEYXRlOiBkYXRhLmJpcnRoRGF0ZSxcbiAgICAgIGRlYXRoRGF0ZTogZGF0YS5kZWF0aERhdGUsXG4gICAgICBsb2NhdGlvbjogZGF0YS5sb2NhdGlvbixcbiAgICAgIGF2YXRhcjogZGF0YS5hdmF0YXIsXG4gICAgICBiaW86IGRhdGEuYmlvLFxuICAgICAgZ2VuZGVyOiBkYXRhLmdlbmRlcixcbiAgICAgIGlzU2VsZjogZGF0YS5pc1NlbGYgPz8gZmFsc2UsXG4gICAgICB4OiBkYXRhLngsXG4gICAgICB5OiBkYXRhLnlcbiAgICB9XG4gIH0pO1xufVxuXG5leHBvcnQgYXN5bmMgZnVuY3Rpb24gZGVsZXRlTWVtYmVyQWN0aW9uKGlkOiBzdHJpbmcpIHtcbiAgYXdhaXQgcHJpc21hLm1lbWJlci5kZWxldGUoe1xuICAgIHdoZXJlOiB7IGlkIH1cbiAgfSk7XG59XG5cbi8vIC0tLSBDb25uZWN0aW9ucyAtLS1cblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldENvbm5lY3Rpb25zQWN0aW9uKCk6IFByb21pc2U8Q29ubmVjdGlvbltdPiB7XG4gIGNvbnN0IGNvbm5lY3Rpb25zID0gYXdhaXQgcHJpc21hLmNvbm5lY3Rpb24uZmluZE1hbnkoKTtcbiAgcmV0dXJuIGNvbm5lY3Rpb25zLm1hcChjID0+ICh7XG4gICAgLi4uYyxcbiAgICBzb3VyY2VIYW5kbGU6IGMuc291cmNlSGFuZGxlIGFzIGFueSxcbiAgICB0YXJnZXRIYW5kbGU6IGMudGFyZ2V0SGFuZGxlIGFzIGFueSxcbiAgICBsaW5lU3R5bGU6IGMubGluZVN0eWxlIGFzIGFueVxuICB9KSk7XG59XG5cbmV4cG9ydCBhc3luYyBmdW5jdGlvbiBzYXZlQ29ubmVjdGlvbkFjdGlvbihjb25uOiBDb25uZWN0aW9uKSB7XG4gIGNvbnN0IHsgaWQsIC4uLmRhdGEgfSA9IGNvbm47XG4gIFxuICBhd2FpdCBwcmlzbWEuY29ubmVjdGlvbi51cHNlcnQoe1xuICAgIHdoZXJlOiB7IGlkIH0sXG4gICAgdXBkYXRlOiB7XG4gICAgICBzb3VyY2VJZDogZGF0YS5zb3VyY2VJZCxcbiAgICAgIHRhcmdldElkOiBkYXRhLnRhcmdldElkLFxuICAgICAgc291cmNlSGFuZGxlOiBkYXRhLnNvdXJjZUhhbmRsZSxcbiAgICAgIHRhcmdldEhhbmRsZTogZGF0YS50YXJnZXRIYW5kbGUsXG4gICAgICBsYWJlbDogZGF0YS5sYWJlbCxcbiAgICAgIGxhYmVsWmg6IGRhdGEubGFiZWxaaCxcbiAgICAgIGNvbG9yOiBkYXRhLmNvbG9yLFxuICAgICAgbGluZVN0eWxlOiBkYXRhLmxpbmVTdHlsZVxuICAgIH0sXG4gICAgY3JlYXRlOiB7XG4gICAgICBpZCxcbiAgICAgIHNvdXJjZUlkOiBkYXRhLnNvdXJjZUlkLFxuICAgICAgdGFyZ2V0SWQ6IGRhdGEudGFyZ2V0SWQsXG4gICAgICBzb3VyY2VIYW5kbGU6IGRhdGEuc291cmNlSGFuZGxlLFxuICAgICAgdGFyZ2V0SGFuZGxlOiBkYXRhLnRhcmdldEhhbmRsZSxcbiAgICAgIGxhYmVsOiBkYXRhLmxhYmVsLFxuICAgICAgbGFiZWxaaDogZGF0YS5sYWJlbFpoLFxuICAgICAgY29sb3I6IGRhdGEuY29sb3IsXG4gICAgICBsaW5lU3R5bGU6IGRhdGEubGluZVN0eWxlXG4gICAgfVxuICB9KTtcbn1cblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGRlbGV0ZUNvbm5lY3Rpb25BY3Rpb24oaWQ6IHN0cmluZykge1xuICBhd2FpdCBwcmlzbWEuY29ubmVjdGlvbi5kZWxldGUoe1xuICAgIHdoZXJlOiB7IGlkIH1cbiAgfSk7XG59XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Im1SQU9zQiw2TEFBQSJ9
+}),
+"[project]/app/data:8a7e4f [app-ssr] (ecmascript) <text/javascript>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "saveMemberAction",
+    ()=>$$RSC_SERVER_ACTION_1
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-client-wrapper.js [app-ssr] (ecmascript)");
+/* __next_internal_action_entry_do_not_use__ [{"40e5a64366c3d06d35d15db8485cbb6d999e9cd315":"saveMemberAction"},"app/actions.ts",""] */ "use turbopack no side effects";
+;
+const $$RSC_SERVER_ACTION_1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createServerReference"])("40e5a64366c3d06d35d15db8485cbb6d999e9cd315", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["callServer"], void 0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["findSourceMapURL"], "saveMemberAction");
+;
+ //# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4vYWN0aW9ucy50cyJdLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIHNlcnZlcic7XG5cbmltcG9ydCB7IHByaXNtYSB9IGZyb20gJy4uL2xpYi9wcmlzbWEnO1xuaW1wb3J0IHsgRmFtaWx5TWVtYmVyLCBDb25uZWN0aW9uIH0gZnJvbSAnLi4vdHlwZXMnO1xuXG4vLyAtLS0gTWVtYmVycyAtLS1cblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldE1lbWJlcnNBY3Rpb24oKTogUHJvbWlzZTxGYW1pbHlNZW1iZXJbXT4ge1xuICBjb25zdCBtZW1iZXJzID0gYXdhaXQgcHJpc21hLm1lbWJlci5maW5kTWFueSgpO1xuICByZXR1cm4gbWVtYmVycy5tYXAobSA9PiAoe1xuICAgIC4uLm0sXG4gICAgZ2VuZGVyOiBtLmdlbmRlciBhcyAnbWFsZScgfCAnZmVtYWxlJyxcbiAgICAvLyBFbnN1cmUgc3RhbmRhcmQgdHlwZXMgbWF0Y2ggZnJvbnRlbmQgZXhwZWN0YXRpb25cbiAgfSkpO1xufVxuXG5leHBvcnQgYXN5bmMgZnVuY3Rpb24gc2F2ZU1lbWJlckFjdGlvbihtZW1iZXI6IEZhbWlseU1lbWJlcikge1xuICBjb25zdCB7IGlkLCAuLi5kYXRhIH0gPSBtZW1iZXI7XG4gIFxuICAvLyBJZiBzZXR0aW5nIGlzU2VsZj10cnVlLCB3ZSBuZWVkIHRvIHVuc2V0IG90aGVycyBmaXJzdCAodHJhbnNhY3Rpb25hbGx5IHdvdWxkIGJlIGJldHRlciwgYnV0IHNpbXBsaWZpZWQgaGVyZSlcbiAgaWYgKGRhdGEuaXNTZWxmKSB7XG4gICAgYXdhaXQgcHJpc21hLm1lbWJlci51cGRhdGVNYW55KHtcbiAgICAgIHdoZXJlOiB7IGlzU2VsZjogdHJ1ZSwgaWQ6IHsgbm90OiBpZCB9IH0sXG4gICAgICBkYXRhOiB7IGlzU2VsZjogZmFsc2UgfVxuICAgIH0pO1xuICB9XG5cbiAgYXdhaXQgcHJpc21hLm1lbWJlci51cHNlcnQoe1xuICAgIHdoZXJlOiB7IGlkIH0sXG4gICAgdXBkYXRlOiB7XG4gICAgICBuYW1lOiBkYXRhLm5hbWUsXG4gICAgICBuYW1lWmg6IGRhdGEubmFtZVpoLFxuICAgICAgcm9sZTogZGF0YS5yb2xlLFxuICAgICAgYmlydGhEYXRlOiBkYXRhLmJpcnRoRGF0ZSxcbiAgICAgIGRlYXRoRGF0ZTogZGF0YS5kZWF0aERhdGUsXG4gICAgICBsb2NhdGlvbjogZGF0YS5sb2NhdGlvbixcbiAgICAgIGF2YXRhcjogZGF0YS5hdmF0YXIsXG4gICAgICBiaW86IGRhdGEuYmlvLFxuICAgICAgZ2VuZGVyOiBkYXRhLmdlbmRlcixcbiAgICAgIGlzU2VsZjogZGF0YS5pc1NlbGYsXG4gICAgICB4OiBkYXRhLngsXG4gICAgICB5OiBkYXRhLnlcbiAgICB9LFxuICAgIGNyZWF0ZToge1xuICAgICAgaWQsXG4gICAgICBuYW1lOiBkYXRhLm5hbWUsXG4gICAgICBuYW1lWmg6IGRhdGEubmFtZVpoLFxuICAgICAgcm9sZTogZGF0YS5yb2xlLFxuICAgICAgYmlydGhEYXRlOiBkYXRhLmJpcnRoRGF0ZSxcbiAgICAgIGRlYXRoRGF0ZTogZGF0YS5kZWF0aERhdGUsXG4gICAgICBsb2NhdGlvbjogZGF0YS5sb2NhdGlvbixcbiAgICAgIGF2YXRhcjogZGF0YS5hdmF0YXIsXG4gICAgICBiaW86IGRhdGEuYmlvLFxuICAgICAgZ2VuZGVyOiBkYXRhLmdlbmRlcixcbiAgICAgIGlzU2VsZjogZGF0YS5pc1NlbGYgPz8gZmFsc2UsXG4gICAgICB4OiBkYXRhLngsXG4gICAgICB5OiBkYXRhLnlcbiAgICB9XG4gIH0pO1xufVxuXG5leHBvcnQgYXN5bmMgZnVuY3Rpb24gZGVsZXRlTWVtYmVyQWN0aW9uKGlkOiBzdHJpbmcpIHtcbiAgYXdhaXQgcHJpc21hLm1lbWJlci5kZWxldGUoe1xuICAgIHdoZXJlOiB7IGlkIH1cbiAgfSk7XG59XG5cbi8vIC0tLSBDb25uZWN0aW9ucyAtLS1cblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldENvbm5lY3Rpb25zQWN0aW9uKCk6IFByb21pc2U8Q29ubmVjdGlvbltdPiB7XG4gIGNvbnN0IGNvbm5lY3Rpb25zID0gYXdhaXQgcHJpc21hLmNvbm5lY3Rpb24uZmluZE1hbnkoKTtcbiAgcmV0dXJuIGNvbm5lY3Rpb25zLm1hcChjID0+ICh7XG4gICAgLi4uYyxcbiAgICBzb3VyY2VIYW5kbGU6IGMuc291cmNlSGFuZGxlIGFzIGFueSxcbiAgICB0YXJnZXRIYW5kbGU6IGMudGFyZ2V0SGFuZGxlIGFzIGFueSxcbiAgICBsaW5lU3R5bGU6IGMubGluZVN0eWxlIGFzIGFueVxuICB9KSk7XG59XG5cbmV4cG9ydCBhc3luYyBmdW5jdGlvbiBzYXZlQ29ubmVjdGlvbkFjdGlvbihjb25uOiBDb25uZWN0aW9uKSB7XG4gIGNvbnN0IHsgaWQsIC4uLmRhdGEgfSA9IGNvbm47XG4gIFxuICBhd2FpdCBwcmlzbWEuY29ubmVjdGlvbi51cHNlcnQoe1xuICAgIHdoZXJlOiB7IGlkIH0sXG4gICAgdXBkYXRlOiB7XG4gICAgICBzb3VyY2VJZDogZGF0YS5zb3VyY2VJZCxcbiAgICAgIHRhcmdldElkOiBkYXRhLnRhcmdldElkLFxuICAgICAgc291cmNlSGFuZGxlOiBkYXRhLnNvdXJjZUhhbmRsZSxcbiAgICAgIHRhcmdldEhhbmRsZTogZGF0YS50YXJnZXRIYW5kbGUsXG4gICAgICBsYWJlbDogZGF0YS5sYWJlbCxcbiAgICAgIGxhYmVsWmg6IGRhdGEubGFiZWxaaCxcbiAgICAgIGNvbG9yOiBkYXRhLmNvbG9yLFxuICAgICAgbGluZVN0eWxlOiBkYXRhLmxpbmVTdHlsZVxuICAgIH0sXG4gICAgY3JlYXRlOiB7XG4gICAgICBpZCxcbiAgICAgIHNvdXJjZUlkOiBkYXRhLnNvdXJjZUlkLFxuICAgICAgdGFyZ2V0SWQ6IGRhdGEudGFyZ2V0SWQsXG4gICAgICBzb3VyY2VIYW5kbGU6IGRhdGEuc291cmNlSGFuZGxlLFxuICAgICAgdGFyZ2V0SGFuZGxlOiBkYXRhLnRhcmdldEhhbmRsZSxcbiAgICAgIGxhYmVsOiBkYXRhLmxhYmVsLFxuICAgICAgbGFiZWxaaDogZGF0YS5sYWJlbFpoLFxuICAgICAgY29sb3I6IGRhdGEuY29sb3IsXG4gICAgICBsaW5lU3R5bGU6IGRhdGEubGluZVN0eWxlXG4gICAgfVxuICB9KTtcbn1cblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGRlbGV0ZUNvbm5lY3Rpb25BY3Rpb24oaWQ6IHN0cmluZykge1xuICBhd2FpdCBwcmlzbWEuY29ubmVjdGlvbi5kZWxldGUoe1xuICAgIHdoZXJlOiB7IGlkIH1cbiAgfSk7XG59XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Im1SQWdCc0IsNkxBQUEifQ==
+}),
+"[project]/app/data:b30b30 [app-ssr] (ecmascript) <text/javascript>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "deleteMemberAction",
+    ()=>$$RSC_SERVER_ACTION_2
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-client-wrapper.js [app-ssr] (ecmascript)");
+/* __next_internal_action_entry_do_not_use__ [{"40fcc969529f44b2912e8271701b25d876d6708598":"deleteMemberAction"},"app/actions.ts",""] */ "use turbopack no side effects";
+;
+const $$RSC_SERVER_ACTION_2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createServerReference"])("40fcc969529f44b2912e8271701b25d876d6708598", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["callServer"], void 0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["findSourceMapURL"], "deleteMemberAction");
+;
+ //# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4vYWN0aW9ucy50cyJdLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIHNlcnZlcic7XG5cbmltcG9ydCB7IHByaXNtYSB9IGZyb20gJy4uL2xpYi9wcmlzbWEnO1xuaW1wb3J0IHsgRmFtaWx5TWVtYmVyLCBDb25uZWN0aW9uIH0gZnJvbSAnLi4vdHlwZXMnO1xuXG4vLyAtLS0gTWVtYmVycyAtLS1cblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldE1lbWJlcnNBY3Rpb24oKTogUHJvbWlzZTxGYW1pbHlNZW1iZXJbXT4ge1xuICBjb25zdCBtZW1iZXJzID0gYXdhaXQgcHJpc21hLm1lbWJlci5maW5kTWFueSgpO1xuICByZXR1cm4gbWVtYmVycy5tYXAobSA9PiAoe1xuICAgIC4uLm0sXG4gICAgZ2VuZGVyOiBtLmdlbmRlciBhcyAnbWFsZScgfCAnZmVtYWxlJyxcbiAgICAvLyBFbnN1cmUgc3RhbmRhcmQgdHlwZXMgbWF0Y2ggZnJvbnRlbmQgZXhwZWN0YXRpb25cbiAgfSkpO1xufVxuXG5leHBvcnQgYXN5bmMgZnVuY3Rpb24gc2F2ZU1lbWJlckFjdGlvbihtZW1iZXI6IEZhbWlseU1lbWJlcikge1xuICBjb25zdCB7IGlkLCAuLi5kYXRhIH0gPSBtZW1iZXI7XG4gIFxuICAvLyBJZiBzZXR0aW5nIGlzU2VsZj10cnVlLCB3ZSBuZWVkIHRvIHVuc2V0IG90aGVycyBmaXJzdCAodHJhbnNhY3Rpb25hbGx5IHdvdWxkIGJlIGJldHRlciwgYnV0IHNpbXBsaWZpZWQgaGVyZSlcbiAgaWYgKGRhdGEuaXNTZWxmKSB7XG4gICAgYXdhaXQgcHJpc21hLm1lbWJlci51cGRhdGVNYW55KHtcbiAgICAgIHdoZXJlOiB7IGlzU2VsZjogdHJ1ZSwgaWQ6IHsgbm90OiBpZCB9IH0sXG4gICAgICBkYXRhOiB7IGlzU2VsZjogZmFsc2UgfVxuICAgIH0pO1xuICB9XG5cbiAgYXdhaXQgcHJpc21hLm1lbWJlci51cHNlcnQoe1xuICAgIHdoZXJlOiB7IGlkIH0sXG4gICAgdXBkYXRlOiB7XG4gICAgICBuYW1lOiBkYXRhLm5hbWUsXG4gICAgICBuYW1lWmg6IGRhdGEubmFtZVpoLFxuICAgICAgcm9sZTogZGF0YS5yb2xlLFxuICAgICAgYmlydGhEYXRlOiBkYXRhLmJpcnRoRGF0ZSxcbiAgICAgIGRlYXRoRGF0ZTogZGF0YS5kZWF0aERhdGUsXG4gICAgICBsb2NhdGlvbjogZGF0YS5sb2NhdGlvbixcbiAgICAgIGF2YXRhcjogZGF0YS5hdmF0YXIsXG4gICAgICBiaW86IGRhdGEuYmlvLFxuICAgICAgZ2VuZGVyOiBkYXRhLmdlbmRlcixcbiAgICAgIGlzU2VsZjogZGF0YS5pc1NlbGYsXG4gICAgICB4OiBkYXRhLngsXG4gICAgICB5OiBkYXRhLnlcbiAgICB9LFxuICAgIGNyZWF0ZToge1xuICAgICAgaWQsXG4gICAgICBuYW1lOiBkYXRhLm5hbWUsXG4gICAgICBuYW1lWmg6IGRhdGEubmFtZVpoLFxuICAgICAgcm9sZTogZGF0YS5yb2xlLFxuICAgICAgYmlydGhEYXRlOiBkYXRhLmJpcnRoRGF0ZSxcbiAgICAgIGRlYXRoRGF0ZTogZGF0YS5kZWF0aERhdGUsXG4gICAgICBsb2NhdGlvbjogZGF0YS5sb2NhdGlvbixcbiAgICAgIGF2YXRhcjogZGF0YS5hdmF0YXIsXG4gICAgICBiaW86IGRhdGEuYmlvLFxuICAgICAgZ2VuZGVyOiBkYXRhLmdlbmRlcixcbiAgICAgIGlzU2VsZjogZGF0YS5pc1NlbGYgPz8gZmFsc2UsXG4gICAgICB4OiBkYXRhLngsXG4gICAgICB5OiBkYXRhLnlcbiAgICB9XG4gIH0pO1xufVxuXG5leHBvcnQgYXN5bmMgZnVuY3Rpb24gZGVsZXRlTWVtYmVyQWN0aW9uKGlkOiBzdHJpbmcpIHtcbiAgYXdhaXQgcHJpc21hLm1lbWJlci5kZWxldGUoe1xuICAgIHdoZXJlOiB7IGlkIH1cbiAgfSk7XG59XG5cbi8vIC0tLSBDb25uZWN0aW9ucyAtLS1cblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldENvbm5lY3Rpb25zQWN0aW9uKCk6IFByb21pc2U8Q29ubmVjdGlvbltdPiB7XG4gIGNvbnN0IGNvbm5lY3Rpb25zID0gYXdhaXQgcHJpc21hLmNvbm5lY3Rpb24uZmluZE1hbnkoKTtcbiAgcmV0dXJuIGNvbm5lY3Rpb25zLm1hcChjID0+ICh7XG4gICAgLi4uYyxcbiAgICBzb3VyY2VIYW5kbGU6IGMuc291cmNlSGFuZGxlIGFzIGFueSxcbiAgICB0YXJnZXRIYW5kbGU6IGMudGFyZ2V0SGFuZGxlIGFzIGFueSxcbiAgICBsaW5lU3R5bGU6IGMubGluZVN0eWxlIGFzIGFueVxuICB9KSk7XG59XG5cbmV4cG9ydCBhc3luYyBmdW5jdGlvbiBzYXZlQ29ubmVjdGlvbkFjdGlvbihjb25uOiBDb25uZWN0aW9uKSB7XG4gIGNvbnN0IHsgaWQsIC4uLmRhdGEgfSA9IGNvbm47XG4gIFxuICBhd2FpdCBwcmlzbWEuY29ubmVjdGlvbi51cHNlcnQoe1xuICAgIHdoZXJlOiB7IGlkIH0sXG4gICAgdXBkYXRlOiB7XG4gICAgICBzb3VyY2VJZDogZGF0YS5zb3VyY2VJZCxcbiAgICAgIHRhcmdldElkOiBkYXRhLnRhcmdldElkLFxuICAgICAgc291cmNlSGFuZGxlOiBkYXRhLnNvdXJjZUhhbmRsZSxcbiAgICAgIHRhcmdldEhhbmRsZTogZGF0YS50YXJnZXRIYW5kbGUsXG4gICAgICBsYWJlbDogZGF0YS5sYWJlbCxcbiAgICAgIGxhYmVsWmg6IGRhdGEubGFiZWxaaCxcbiAgICAgIGNvbG9yOiBkYXRhLmNvbG9yLFxuICAgICAgbGluZVN0eWxlOiBkYXRhLmxpbmVTdHlsZVxuICAgIH0sXG4gICAgY3JlYXRlOiB7XG4gICAgICBpZCxcbiAgICAgIHNvdXJjZUlkOiBkYXRhLnNvdXJjZUlkLFxuICAgICAgdGFyZ2V0SWQ6IGRhdGEudGFyZ2V0SWQsXG4gICAgICBzb3VyY2VIYW5kbGU6IGRhdGEuc291cmNlSGFuZGxlLFxuICAgICAgdGFyZ2V0SGFuZGxlOiBkYXRhLnRhcmdldEhhbmRsZSxcbiAgICAgIGxhYmVsOiBkYXRhLmxhYmVsLFxuICAgICAgbGFiZWxaaDogZGF0YS5sYWJlbFpoLFxuICAgICAgY29sb3I6IGRhdGEuY29sb3IsXG4gICAgICBsaW5lU3R5bGU6IGRhdGEubGluZVN0eWxlXG4gICAgfVxuICB9KTtcbn1cblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGRlbGV0ZUNvbm5lY3Rpb25BY3Rpb24oaWQ6IHN0cmluZykge1xuICBhd2FpdCBwcmlzbWEuY29ubmVjdGlvbi5kZWxldGUoe1xuICAgIHdoZXJlOiB7IGlkIH1cbiAgfSk7XG59XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6InFSQTZEc0IsK0xBQUEifQ==
+}),
+"[project]/app/data:649b49 [app-ssr] (ecmascript) <text/javascript>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "getConnectionsAction",
+    ()=>$$RSC_SERVER_ACTION_3
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-client-wrapper.js [app-ssr] (ecmascript)");
+/* __next_internal_action_entry_do_not_use__ [{"0092d9a56c8573aeff6f65e8b858ed5e175897b587":"getConnectionsAction"},"app/actions.ts",""] */ "use turbopack no side effects";
+;
+const $$RSC_SERVER_ACTION_3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createServerReference"])("0092d9a56c8573aeff6f65e8b858ed5e175897b587", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["callServer"], void 0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["findSourceMapURL"], "getConnectionsAction");
+;
+ //# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4vYWN0aW9ucy50cyJdLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIHNlcnZlcic7XG5cbmltcG9ydCB7IHByaXNtYSB9IGZyb20gJy4uL2xpYi9wcmlzbWEnO1xuaW1wb3J0IHsgRmFtaWx5TWVtYmVyLCBDb25uZWN0aW9uIH0gZnJvbSAnLi4vdHlwZXMnO1xuXG4vLyAtLS0gTWVtYmVycyAtLS1cblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldE1lbWJlcnNBY3Rpb24oKTogUHJvbWlzZTxGYW1pbHlNZW1iZXJbXT4ge1xuICBjb25zdCBtZW1iZXJzID0gYXdhaXQgcHJpc21hLm1lbWJlci5maW5kTWFueSgpO1xuICByZXR1cm4gbWVtYmVycy5tYXAobSA9PiAoe1xuICAgIC4uLm0sXG4gICAgZ2VuZGVyOiBtLmdlbmRlciBhcyAnbWFsZScgfCAnZmVtYWxlJyxcbiAgICAvLyBFbnN1cmUgc3RhbmRhcmQgdHlwZXMgbWF0Y2ggZnJvbnRlbmQgZXhwZWN0YXRpb25cbiAgfSkpO1xufVxuXG5leHBvcnQgYXN5bmMgZnVuY3Rpb24gc2F2ZU1lbWJlckFjdGlvbihtZW1iZXI6IEZhbWlseU1lbWJlcikge1xuICBjb25zdCB7IGlkLCAuLi5kYXRhIH0gPSBtZW1iZXI7XG4gIFxuICAvLyBJZiBzZXR0aW5nIGlzU2VsZj10cnVlLCB3ZSBuZWVkIHRvIHVuc2V0IG90aGVycyBmaXJzdCAodHJhbnNhY3Rpb25hbGx5IHdvdWxkIGJlIGJldHRlciwgYnV0IHNpbXBsaWZpZWQgaGVyZSlcbiAgaWYgKGRhdGEuaXNTZWxmKSB7XG4gICAgYXdhaXQgcHJpc21hLm1lbWJlci51cGRhdGVNYW55KHtcbiAgICAgIHdoZXJlOiB7IGlzU2VsZjogdHJ1ZSwgaWQ6IHsgbm90OiBpZCB9IH0sXG4gICAgICBkYXRhOiB7IGlzU2VsZjogZmFsc2UgfVxuICAgIH0pO1xuICB9XG5cbiAgYXdhaXQgcHJpc21hLm1lbWJlci51cHNlcnQoe1xuICAgIHdoZXJlOiB7IGlkIH0sXG4gICAgdXBkYXRlOiB7XG4gICAgICBuYW1lOiBkYXRhLm5hbWUsXG4gICAgICBuYW1lWmg6IGRhdGEubmFtZVpoLFxuICAgICAgcm9sZTogZGF0YS5yb2xlLFxuICAgICAgYmlydGhEYXRlOiBkYXRhLmJpcnRoRGF0ZSxcbiAgICAgIGRlYXRoRGF0ZTogZGF0YS5kZWF0aERhdGUsXG4gICAgICBsb2NhdGlvbjogZGF0YS5sb2NhdGlvbixcbiAgICAgIGF2YXRhcjogZGF0YS5hdmF0YXIsXG4gICAgICBiaW86IGRhdGEuYmlvLFxuICAgICAgZ2VuZGVyOiBkYXRhLmdlbmRlcixcbiAgICAgIGlzU2VsZjogZGF0YS5pc1NlbGYsXG4gICAgICB4OiBkYXRhLngsXG4gICAgICB5OiBkYXRhLnlcbiAgICB9LFxuICAgIGNyZWF0ZToge1xuICAgICAgaWQsXG4gICAgICBuYW1lOiBkYXRhLm5hbWUsXG4gICAgICBuYW1lWmg6IGRhdGEubmFtZVpoLFxuICAgICAgcm9sZTogZGF0YS5yb2xlLFxuICAgICAgYmlydGhEYXRlOiBkYXRhLmJpcnRoRGF0ZSxcbiAgICAgIGRlYXRoRGF0ZTogZGF0YS5kZWF0aERhdGUsXG4gICAgICBsb2NhdGlvbjogZGF0YS5sb2NhdGlvbixcbiAgICAgIGF2YXRhcjogZGF0YS5hdmF0YXIsXG4gICAgICBiaW86IGRhdGEuYmlvLFxuICAgICAgZ2VuZGVyOiBkYXRhLmdlbmRlcixcbiAgICAgIGlzU2VsZjogZGF0YS5pc1NlbGYgPz8gZmFsc2UsXG4gICAgICB4OiBkYXRhLngsXG4gICAgICB5OiBkYXRhLnlcbiAgICB9XG4gIH0pO1xufVxuXG5leHBvcnQgYXN5bmMgZnVuY3Rpb24gZGVsZXRlTWVtYmVyQWN0aW9uKGlkOiBzdHJpbmcpIHtcbiAgYXdhaXQgcHJpc21hLm1lbWJlci5kZWxldGUoe1xuICAgIHdoZXJlOiB7IGlkIH1cbiAgfSk7XG59XG5cbi8vIC0tLSBDb25uZWN0aW9ucyAtLS1cblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldENvbm5lY3Rpb25zQWN0aW9uKCk6IFByb21pc2U8Q29ubmVjdGlvbltdPiB7XG4gIGNvbnN0IGNvbm5lY3Rpb25zID0gYXdhaXQgcHJpc21hLmNvbm5lY3Rpb24uZmluZE1hbnkoKTtcbiAgcmV0dXJuIGNvbm5lY3Rpb25zLm1hcChjID0+ICh7XG4gICAgLi4uYyxcbiAgICBzb3VyY2VIYW5kbGU6IGMuc291cmNlSGFuZGxlIGFzIGFueSxcbiAgICB0YXJnZXRIYW5kbGU6IGMudGFyZ2V0SGFuZGxlIGFzIGFueSxcbiAgICBsaW5lU3R5bGU6IGMubGluZVN0eWxlIGFzIGFueVxuICB9KSk7XG59XG5cbmV4cG9ydCBhc3luYyBmdW5jdGlvbiBzYXZlQ29ubmVjdGlvbkFjdGlvbihjb25uOiBDb25uZWN0aW9uKSB7XG4gIGNvbnN0IHsgaWQsIC4uLmRhdGEgfSA9IGNvbm47XG4gIFxuICBhd2FpdCBwcmlzbWEuY29ubmVjdGlvbi51cHNlcnQoe1xuICAgIHdoZXJlOiB7IGlkIH0sXG4gICAgdXBkYXRlOiB7XG4gICAgICBzb3VyY2VJZDogZGF0YS5zb3VyY2VJZCxcbiAgICAgIHRhcmdldElkOiBkYXRhLnRhcmdldElkLFxuICAgICAgc291cmNlSGFuZGxlOiBkYXRhLnNvdXJjZUhhbmRsZSxcbiAgICAgIHRhcmdldEhhbmRsZTogZGF0YS50YXJnZXRIYW5kbGUsXG4gICAgICBsYWJlbDogZGF0YS5sYWJlbCxcbiAgICAgIGxhYmVsWmg6IGRhdGEubGFiZWxaaCxcbiAgICAgIGNvbG9yOiBkYXRhLmNvbG9yLFxuICAgICAgbGluZVN0eWxlOiBkYXRhLmxpbmVTdHlsZVxuICAgIH0sXG4gICAgY3JlYXRlOiB7XG4gICAgICBpZCxcbiAgICAgIHNvdXJjZUlkOiBkYXRhLnNvdXJjZUlkLFxuICAgICAgdGFyZ2V0SWQ6IGRhdGEudGFyZ2V0SWQsXG4gICAgICBzb3VyY2VIYW5kbGU6IGRhdGEuc291cmNlSGFuZGxlLFxuICAgICAgdGFyZ2V0SGFuZGxlOiBkYXRhLnRhcmdldEhhbmRsZSxcbiAgICAgIGxhYmVsOiBkYXRhLmxhYmVsLFxuICAgICAgbGFiZWxaaDogZGF0YS5sYWJlbFpoLFxuICAgICAgY29sb3I6IGRhdGEuY29sb3IsXG4gICAgICBsaW5lU3R5bGU6IGRhdGEubGluZVN0eWxlXG4gICAgfVxuICB9KTtcbn1cblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGRlbGV0ZUNvbm5lY3Rpb25BY3Rpb24oaWQ6IHN0cmluZykge1xuICBhd2FpdCBwcmlzbWEuY29ubmVjdGlvbi5kZWxldGUoe1xuICAgIHdoZXJlOiB7IGlkIH1cbiAgfSk7XG59XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6InVSQXFFc0IsaU1BQUEifQ==
+}),
+"[project]/app/data:0e733b [app-ssr] (ecmascript) <text/javascript>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "saveConnectionAction",
+    ()=>$$RSC_SERVER_ACTION_4
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-client-wrapper.js [app-ssr] (ecmascript)");
+/* __next_internal_action_entry_do_not_use__ [{"405601e25bb52b3f303dcbc9b817cd5fd479b6236b":"saveConnectionAction"},"app/actions.ts",""] */ "use turbopack no side effects";
+;
+const $$RSC_SERVER_ACTION_4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createServerReference"])("405601e25bb52b3f303dcbc9b817cd5fd479b6236b", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["callServer"], void 0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["findSourceMapURL"], "saveConnectionAction");
+;
+ //# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4vYWN0aW9ucy50cyJdLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIHNlcnZlcic7XG5cbmltcG9ydCB7IHByaXNtYSB9IGZyb20gJy4uL2xpYi9wcmlzbWEnO1xuaW1wb3J0IHsgRmFtaWx5TWVtYmVyLCBDb25uZWN0aW9uIH0gZnJvbSAnLi4vdHlwZXMnO1xuXG4vLyAtLS0gTWVtYmVycyAtLS1cblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldE1lbWJlcnNBY3Rpb24oKTogUHJvbWlzZTxGYW1pbHlNZW1iZXJbXT4ge1xuICBjb25zdCBtZW1iZXJzID0gYXdhaXQgcHJpc21hLm1lbWJlci5maW5kTWFueSgpO1xuICByZXR1cm4gbWVtYmVycy5tYXAobSA9PiAoe1xuICAgIC4uLm0sXG4gICAgZ2VuZGVyOiBtLmdlbmRlciBhcyAnbWFsZScgfCAnZmVtYWxlJyxcbiAgICAvLyBFbnN1cmUgc3RhbmRhcmQgdHlwZXMgbWF0Y2ggZnJvbnRlbmQgZXhwZWN0YXRpb25cbiAgfSkpO1xufVxuXG5leHBvcnQgYXN5bmMgZnVuY3Rpb24gc2F2ZU1lbWJlckFjdGlvbihtZW1iZXI6IEZhbWlseU1lbWJlcikge1xuICBjb25zdCB7IGlkLCAuLi5kYXRhIH0gPSBtZW1iZXI7XG4gIFxuICAvLyBJZiBzZXR0aW5nIGlzU2VsZj10cnVlLCB3ZSBuZWVkIHRvIHVuc2V0IG90aGVycyBmaXJzdCAodHJhbnNhY3Rpb25hbGx5IHdvdWxkIGJlIGJldHRlciwgYnV0IHNpbXBsaWZpZWQgaGVyZSlcbiAgaWYgKGRhdGEuaXNTZWxmKSB7XG4gICAgYXdhaXQgcHJpc21hLm1lbWJlci51cGRhdGVNYW55KHtcbiAgICAgIHdoZXJlOiB7IGlzU2VsZjogdHJ1ZSwgaWQ6IHsgbm90OiBpZCB9IH0sXG4gICAgICBkYXRhOiB7IGlzU2VsZjogZmFsc2UgfVxuICAgIH0pO1xuICB9XG5cbiAgYXdhaXQgcHJpc21hLm1lbWJlci51cHNlcnQoe1xuICAgIHdoZXJlOiB7IGlkIH0sXG4gICAgdXBkYXRlOiB7XG4gICAgICBuYW1lOiBkYXRhLm5hbWUsXG4gICAgICBuYW1lWmg6IGRhdGEubmFtZVpoLFxuICAgICAgcm9sZTogZGF0YS5yb2xlLFxuICAgICAgYmlydGhEYXRlOiBkYXRhLmJpcnRoRGF0ZSxcbiAgICAgIGRlYXRoRGF0ZTogZGF0YS5kZWF0aERhdGUsXG4gICAgICBsb2NhdGlvbjogZGF0YS5sb2NhdGlvbixcbiAgICAgIGF2YXRhcjogZGF0YS5hdmF0YXIsXG4gICAgICBiaW86IGRhdGEuYmlvLFxuICAgICAgZ2VuZGVyOiBkYXRhLmdlbmRlcixcbiAgICAgIGlzU2VsZjogZGF0YS5pc1NlbGYsXG4gICAgICB4OiBkYXRhLngsXG4gICAgICB5OiBkYXRhLnlcbiAgICB9LFxuICAgIGNyZWF0ZToge1xuICAgICAgaWQsXG4gICAgICBuYW1lOiBkYXRhLm5hbWUsXG4gICAgICBuYW1lWmg6IGRhdGEubmFtZVpoLFxuICAgICAgcm9sZTogZGF0YS5yb2xlLFxuICAgICAgYmlydGhEYXRlOiBkYXRhLmJpcnRoRGF0ZSxcbiAgICAgIGRlYXRoRGF0ZTogZGF0YS5kZWF0aERhdGUsXG4gICAgICBsb2NhdGlvbjogZGF0YS5sb2NhdGlvbixcbiAgICAgIGF2YXRhcjogZGF0YS5hdmF0YXIsXG4gICAgICBiaW86IGRhdGEuYmlvLFxuICAgICAgZ2VuZGVyOiBkYXRhLmdlbmRlcixcbiAgICAgIGlzU2VsZjogZGF0YS5pc1NlbGYgPz8gZmFsc2UsXG4gICAgICB4OiBkYXRhLngsXG4gICAgICB5OiBkYXRhLnlcbiAgICB9XG4gIH0pO1xufVxuXG5leHBvcnQgYXN5bmMgZnVuY3Rpb24gZGVsZXRlTWVtYmVyQWN0aW9uKGlkOiBzdHJpbmcpIHtcbiAgYXdhaXQgcHJpc21hLm1lbWJlci5kZWxldGUoe1xuICAgIHdoZXJlOiB7IGlkIH1cbiAgfSk7XG59XG5cbi8vIC0tLSBDb25uZWN0aW9ucyAtLS1cblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldENvbm5lY3Rpb25zQWN0aW9uKCk6IFByb21pc2U8Q29ubmVjdGlvbltdPiB7XG4gIGNvbnN0IGNvbm5lY3Rpb25zID0gYXdhaXQgcHJpc21hLmNvbm5lY3Rpb24uZmluZE1hbnkoKTtcbiAgcmV0dXJuIGNvbm5lY3Rpb25zLm1hcChjID0+ICh7XG4gICAgLi4uYyxcbiAgICBzb3VyY2VIYW5kbGU6IGMuc291cmNlSGFuZGxlIGFzIGFueSxcbiAgICB0YXJnZXRIYW5kbGU6IGMudGFyZ2V0SGFuZGxlIGFzIGFueSxcbiAgICBsaW5lU3R5bGU6IGMubGluZVN0eWxlIGFzIGFueVxuICB9KSk7XG59XG5cbmV4cG9ydCBhc3luYyBmdW5jdGlvbiBzYXZlQ29ubmVjdGlvbkFjdGlvbihjb25uOiBDb25uZWN0aW9uKSB7XG4gIGNvbnN0IHsgaWQsIC4uLmRhdGEgfSA9IGNvbm47XG4gIFxuICBhd2FpdCBwcmlzbWEuY29ubmVjdGlvbi51cHNlcnQoe1xuICAgIHdoZXJlOiB7IGlkIH0sXG4gICAgdXBkYXRlOiB7XG4gICAgICBzb3VyY2VJZDogZGF0YS5zb3VyY2VJZCxcbiAgICAgIHRhcmdldElkOiBkYXRhLnRhcmdldElkLFxuICAgICAgc291cmNlSGFuZGxlOiBkYXRhLnNvdXJjZUhhbmRsZSxcbiAgICAgIHRhcmdldEhhbmRsZTogZGF0YS50YXJnZXRIYW5kbGUsXG4gICAgICBsYWJlbDogZGF0YS5sYWJlbCxcbiAgICAgIGxhYmVsWmg6IGRhdGEubGFiZWxaaCxcbiAgICAgIGNvbG9yOiBkYXRhLmNvbG9yLFxuICAgICAgbGluZVN0eWxlOiBkYXRhLmxpbmVTdHlsZVxuICAgIH0sXG4gICAgY3JlYXRlOiB7XG4gICAgICBpZCxcbiAgICAgIHNvdXJjZUlkOiBkYXRhLnNvdXJjZUlkLFxuICAgICAgdGFyZ2V0SWQ6IGRhdGEudGFyZ2V0SWQsXG4gICAgICBzb3VyY2VIYW5kbGU6IGRhdGEuc291cmNlSGFuZGxlLFxuICAgICAgdGFyZ2V0SGFuZGxlOiBkYXRhLnRhcmdldEhhbmRsZSxcbiAgICAgIGxhYmVsOiBkYXRhLmxhYmVsLFxuICAgICAgbGFiZWxaaDogZGF0YS5sYWJlbFpoLFxuICAgICAgY29sb3I6IGRhdGEuY29sb3IsXG4gICAgICBsaW5lU3R5bGU6IGRhdGEubGluZVN0eWxlXG4gICAgfVxuICB9KTtcbn1cblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGRlbGV0ZUNvbm5lY3Rpb25BY3Rpb24oaWQ6IHN0cmluZykge1xuICBhd2FpdCBwcmlzbWEuY29ubmVjdGlvbi5kZWxldGUoe1xuICAgIHdoZXJlOiB7IGlkIH1cbiAgfSk7XG59XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6InVSQStFc0IsaU1BQUEifQ==
+}),
+"[project]/app/data:630b34 [app-ssr] (ecmascript) <text/javascript>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "deleteConnectionAction",
+    ()=>$$RSC_SERVER_ACTION_5
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-client-wrapper.js [app-ssr] (ecmascript)");
+/* __next_internal_action_entry_do_not_use__ [{"40e1e85f3981298898a15b89c5b7869ea28c0f5e53":"deleteConnectionAction"},"app/actions.ts",""] */ "use turbopack no side effects";
+;
+const $$RSC_SERVER_ACTION_5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createServerReference"])("40e1e85f3981298898a15b89c5b7869ea28c0f5e53", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["callServer"], void 0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["findSourceMapURL"], "deleteConnectionAction");
+;
+ //# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4vYWN0aW9ucy50cyJdLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIHNlcnZlcic7XG5cbmltcG9ydCB7IHByaXNtYSB9IGZyb20gJy4uL2xpYi9wcmlzbWEnO1xuaW1wb3J0IHsgRmFtaWx5TWVtYmVyLCBDb25uZWN0aW9uIH0gZnJvbSAnLi4vdHlwZXMnO1xuXG4vLyAtLS0gTWVtYmVycyAtLS1cblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldE1lbWJlcnNBY3Rpb24oKTogUHJvbWlzZTxGYW1pbHlNZW1iZXJbXT4ge1xuICBjb25zdCBtZW1iZXJzID0gYXdhaXQgcHJpc21hLm1lbWJlci5maW5kTWFueSgpO1xuICByZXR1cm4gbWVtYmVycy5tYXAobSA9PiAoe1xuICAgIC4uLm0sXG4gICAgZ2VuZGVyOiBtLmdlbmRlciBhcyAnbWFsZScgfCAnZmVtYWxlJyxcbiAgICAvLyBFbnN1cmUgc3RhbmRhcmQgdHlwZXMgbWF0Y2ggZnJvbnRlbmQgZXhwZWN0YXRpb25cbiAgfSkpO1xufVxuXG5leHBvcnQgYXN5bmMgZnVuY3Rpb24gc2F2ZU1lbWJlckFjdGlvbihtZW1iZXI6IEZhbWlseU1lbWJlcikge1xuICBjb25zdCB7IGlkLCAuLi5kYXRhIH0gPSBtZW1iZXI7XG4gIFxuICAvLyBJZiBzZXR0aW5nIGlzU2VsZj10cnVlLCB3ZSBuZWVkIHRvIHVuc2V0IG90aGVycyBmaXJzdCAodHJhbnNhY3Rpb25hbGx5IHdvdWxkIGJlIGJldHRlciwgYnV0IHNpbXBsaWZpZWQgaGVyZSlcbiAgaWYgKGRhdGEuaXNTZWxmKSB7XG4gICAgYXdhaXQgcHJpc21hLm1lbWJlci51cGRhdGVNYW55KHtcbiAgICAgIHdoZXJlOiB7IGlzU2VsZjogdHJ1ZSwgaWQ6IHsgbm90OiBpZCB9IH0sXG4gICAgICBkYXRhOiB7IGlzU2VsZjogZmFsc2UgfVxuICAgIH0pO1xuICB9XG5cbiAgYXdhaXQgcHJpc21hLm1lbWJlci51cHNlcnQoe1xuICAgIHdoZXJlOiB7IGlkIH0sXG4gICAgdXBkYXRlOiB7XG4gICAgICBuYW1lOiBkYXRhLm5hbWUsXG4gICAgICBuYW1lWmg6IGRhdGEubmFtZVpoLFxuICAgICAgcm9sZTogZGF0YS5yb2xlLFxuICAgICAgYmlydGhEYXRlOiBkYXRhLmJpcnRoRGF0ZSxcbiAgICAgIGRlYXRoRGF0ZTogZGF0YS5kZWF0aERhdGUsXG4gICAgICBsb2NhdGlvbjogZGF0YS5sb2NhdGlvbixcbiAgICAgIGF2YXRhcjogZGF0YS5hdmF0YXIsXG4gICAgICBiaW86IGRhdGEuYmlvLFxuICAgICAgZ2VuZGVyOiBkYXRhLmdlbmRlcixcbiAgICAgIGlzU2VsZjogZGF0YS5pc1NlbGYsXG4gICAgICB4OiBkYXRhLngsXG4gICAgICB5OiBkYXRhLnlcbiAgICB9LFxuICAgIGNyZWF0ZToge1xuICAgICAgaWQsXG4gICAgICBuYW1lOiBkYXRhLm5hbWUsXG4gICAgICBuYW1lWmg6IGRhdGEubmFtZVpoLFxuICAgICAgcm9sZTogZGF0YS5yb2xlLFxuICAgICAgYmlydGhEYXRlOiBkYXRhLmJpcnRoRGF0ZSxcbiAgICAgIGRlYXRoRGF0ZTogZGF0YS5kZWF0aERhdGUsXG4gICAgICBsb2NhdGlvbjogZGF0YS5sb2NhdGlvbixcbiAgICAgIGF2YXRhcjogZGF0YS5hdmF0YXIsXG4gICAgICBiaW86IGRhdGEuYmlvLFxuICAgICAgZ2VuZGVyOiBkYXRhLmdlbmRlcixcbiAgICAgIGlzU2VsZjogZGF0YS5pc1NlbGYgPz8gZmFsc2UsXG4gICAgICB4OiBkYXRhLngsXG4gICAgICB5OiBkYXRhLnlcbiAgICB9XG4gIH0pO1xufVxuXG5leHBvcnQgYXN5bmMgZnVuY3Rpb24gZGVsZXRlTWVtYmVyQWN0aW9uKGlkOiBzdHJpbmcpIHtcbiAgYXdhaXQgcHJpc21hLm1lbWJlci5kZWxldGUoe1xuICAgIHdoZXJlOiB7IGlkIH1cbiAgfSk7XG59XG5cbi8vIC0tLSBDb25uZWN0aW9ucyAtLS1cblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldENvbm5lY3Rpb25zQWN0aW9uKCk6IFByb21pc2U8Q29ubmVjdGlvbltdPiB7XG4gIGNvbnN0IGNvbm5lY3Rpb25zID0gYXdhaXQgcHJpc21hLmNvbm5lY3Rpb24uZmluZE1hbnkoKTtcbiAgcmV0dXJuIGNvbm5lY3Rpb25zLm1hcChjID0+ICh7XG4gICAgLi4uYyxcbiAgICBzb3VyY2VIYW5kbGU6IGMuc291cmNlSGFuZGxlIGFzIGFueSxcbiAgICB0YXJnZXRIYW5kbGU6IGMudGFyZ2V0SGFuZGxlIGFzIGFueSxcbiAgICBsaW5lU3R5bGU6IGMubGluZVN0eWxlIGFzIGFueVxuICB9KSk7XG59XG5cbmV4cG9ydCBhc3luYyBmdW5jdGlvbiBzYXZlQ29ubmVjdGlvbkFjdGlvbihjb25uOiBDb25uZWN0aW9uKSB7XG4gIGNvbnN0IHsgaWQsIC4uLmRhdGEgfSA9IGNvbm47XG4gIFxuICBhd2FpdCBwcmlzbWEuY29ubmVjdGlvbi51cHNlcnQoe1xuICAgIHdoZXJlOiB7IGlkIH0sXG4gICAgdXBkYXRlOiB7XG4gICAgICBzb3VyY2VJZDogZGF0YS5zb3VyY2VJZCxcbiAgICAgIHRhcmdldElkOiBkYXRhLnRhcmdldElkLFxuICAgICAgc291cmNlSGFuZGxlOiBkYXRhLnNvdXJjZUhhbmRsZSxcbiAgICAgIHRhcmdldEhhbmRsZTogZGF0YS50YXJnZXRIYW5kbGUsXG4gICAgICBsYWJlbDogZGF0YS5sYWJlbCxcbiAgICAgIGxhYmVsWmg6IGRhdGEubGFiZWxaaCxcbiAgICAgIGNvbG9yOiBkYXRhLmNvbG9yLFxuICAgICAgbGluZVN0eWxlOiBkYXRhLmxpbmVTdHlsZVxuICAgIH0sXG4gICAgY3JlYXRlOiB7XG4gICAgICBpZCxcbiAgICAgIHNvdXJjZUlkOiBkYXRhLnNvdXJjZUlkLFxuICAgICAgdGFyZ2V0SWQ6IGRhdGEudGFyZ2V0SWQsXG4gICAgICBzb3VyY2VIYW5kbGU6IGRhdGEuc291cmNlSGFuZGxlLFxuICAgICAgdGFyZ2V0SGFuZGxlOiBkYXRhLnRhcmdldEhhbmRsZSxcbiAgICAgIGxhYmVsOiBkYXRhLmxhYmVsLFxuICAgICAgbGFiZWxaaDogZGF0YS5sYWJlbFpoLFxuICAgICAgY29sb3I6IGRhdGEuY29sb3IsXG4gICAgICBsaW5lU3R5bGU6IGRhdGEubGluZVN0eWxlXG4gICAgfVxuICB9KTtcbn1cblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGRlbGV0ZUNvbm5lY3Rpb25BY3Rpb24oaWQ6IHN0cmluZykge1xuICBhd2FpdCBwcmlzbWEuY29ubmVjdGlvbi5kZWxldGUoe1xuICAgIHdoZXJlOiB7IGlkIH1cbiAgfSk7XG59XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6InlSQTRHc0IsbU1BQUEifQ==
+}),
+"[project]/services/dbService.ts [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "dbService",
+    ()=>dbService
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$3a$51760c__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$text$2f$javascript$3e$__ = __turbopack_context__.i("[project]/app/data:51760c [app-ssr] (ecmascript) <text/javascript>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$3a$8a7e4f__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$text$2f$javascript$3e$__ = __turbopack_context__.i("[project]/app/data:8a7e4f [app-ssr] (ecmascript) <text/javascript>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$3a$b30b30__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$text$2f$javascript$3e$__ = __turbopack_context__.i("[project]/app/data:b30b30 [app-ssr] (ecmascript) <text/javascript>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$3a$649b49__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$text$2f$javascript$3e$__ = __turbopack_context__.i("[project]/app/data:649b49 [app-ssr] (ecmascript) <text/javascript>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$3a$0e733b__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$text$2f$javascript$3e$__ = __turbopack_context__.i("[project]/app/data:0e733b [app-ssr] (ecmascript) <text/javascript>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$3a$630b34__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$text$2f$javascript$3e$__ = __turbopack_context__.i("[project]/app/data:630b34 [app-ssr] (ecmascript) <text/javascript>");
+;
+const dbService = {
+    getMembers: async ()=>{
+        try {
+            return await (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$3a$51760c__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$text$2f$javascript$3e$__["getMembersAction"])();
+        } catch (e) {
+            console.error("Failed to fetch members", e);
+            return [];
+        }
+    },
+    addMember: async (member)=>{
+        await (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$3a$8a7e4f__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$text$2f$javascript$3e$__["saveMemberAction"])(member);
+    },
+    updateMember: async (member)=>{
+        await (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$3a$8a7e4f__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$text$2f$javascript$3e$__["saveMemberAction"])(member);
+    },
+    deleteMember: async (id)=>{
+        await (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$3a$b30b30__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$text$2f$javascript$3e$__["deleteMemberAction"])(id);
+    },
+    getConnections: async ()=>{
+        try {
+            return await (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$3a$649b49__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$text$2f$javascript$3e$__["getConnectionsAction"])();
+        } catch (e) {
+            console.error("Failed to fetch connections", e);
+            return [];
+        }
+    },
+    addConnection: async (conn)=>{
+        await (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$3a$0e733b__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$text$2f$javascript$3e$__["saveConnectionAction"])(conn);
+    },
+    updateConnection: async (conn)=>{
+        await (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$3a$0e733b__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$text$2f$javascript$3e$__["saveConnectionAction"])(conn);
+    },
+    deleteConnection: async (id)=>{
+        await (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$3a$630b34__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$text$2f$javascript$3e$__["deleteConnectionAction"])(id);
+    },
+    // Export Logic needs to be client-side generated from fetched data, 
+    // or moved to a server action that returns the string.
+    // For simplicity, we assume the caller has the data or we fetch it here.
+    exportAsSql: async ()=>{
+        const members = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$3a$51760c__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$text$2f$javascript$3e$__["getMembersAction"])();
+        const connections = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$3a$649b49__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$text$2f$javascript$3e$__["getConnectionsAction"])();
+        let sql = `-- Robinson Family Tree Export\n-- Generated on ${new Date().toISOString()}\n\n`;
+        sql += `CREATE TABLE IF NOT EXISTS members (
+      id TEXT PRIMARY KEY,
+      name TEXT,
+      name_zh TEXT,
+      role TEXT,
+      birth_date TEXT,
+      location TEXT,
+      avatar TEXT,
+      gender TEXT,
+      is_self BOOLEAN,
+      x INTEGER,
+      y INTEGER
+    );\n\n`;
+        sql += `CREATE TABLE IF NOT EXISTS connections (
+      id TEXT PRIMARY KEY,
+      source_id TEXT,
+      target_id TEXT,
+      source_handle TEXT,
+      target_handle TEXT,
+      label TEXT,
+      label_zh TEXT,
+      color TEXT,
+      line_style TEXT,
+      FOREIGN KEY(source_id) REFERENCES members(id),
+      FOREIGN KEY(target_id) REFERENCES members(id)
+    );\n\n`;
+        members.forEach((m)=>{
+            sql += `INSERT INTO members (id, name, name_zh, role, birth_date, location, avatar, gender, is_self, x, y) VALUES ('${m.id}', '${m.name.replace(/'/g, "''")}', '${(m.nameZh || '').replace(/'/g, "''")}', '${m.role}', '${m.birthDate || ''}', '${m.location || ''}', '${m.avatar}', '${m.gender}', ${m.isSelf ? 1 : 0}, ${Math.round(m.x)}, ${Math.round(m.y)});\n`;
+        });
+        sql += '\n';
+        connections.forEach((c)=>{
+            sql += `INSERT INTO connections (id, source_id, target_id, source_handle, target_handle, label, label_zh, color, line_style) VALUES ('${c.id}', '${c.sourceId}', '${c.targetId}', '${c.sourceHandle}', '${c.targetHandle}', '${c.label}', '${c.labelZh || ''}', '${c.color || '#e5e7eb'}', '${c.lineStyle || 'solid'}');\n`;
+        });
+        return sql;
+    }
+};
+}),
+"[project]/locales.ts [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "translations",
+    ()=>translations
+]);
+const translations = {
+    en: {
+        appTitle: "Robinson Family Tree",
+        tree: "Tree",
+        directory: "Directory",
+        settings: "Settings",
+        searchPlaceholder: "Find family member...",
+        export: "Export SQL",
+        addMember: "Add Member",
+        addCenterMember: "Add Center Member",
+        emptyStateTitle: "Start Your Family Tree",
+        emptyStateDesc: "No family members found. Please add yourself as the center member to begin.",
+        name: "Name",
+        nameZh: "Name (Chinese)",
+        role: "Role / Relation",
+        birthDate: "Birth Date",
+        location: "Location",
+        save: "Save",
+        cancel: "Cancel",
+        delete: "Delete",
+        edit: "Edit",
+        setAsSelf: "Set as Me",
+        isSelf: "Me",
+        connectPrompt: "Drag from a dot to connect",
+        connectionLabel: "Relationship Label",
+        connectionLabelZh: "Relationship Label (CN)",
+        sourceHandle: "Source Position",
+        targetHandle: "Target Position",
+        top: "Top",
+        right: "Right",
+        bottom: "Bottom",
+        left: "Left",
+        male: "Male",
+        female: "Female",
+        centerOnMe: "Reset to Me",
+        lock: "Lock",
+        unlock: "Unlock",
+        autoArrange: "Auto Arrange",
+        lineColor: "Line Color",
+        lineStyle: "Line Style",
+        solid: "Solid",
+        dashed: "Dashed",
+        dotted: "Dotted",
+        calculatedRelation: "Relation to You"
+    },
+    zh: {
+        appTitle: "罗宾逊家族树",
+        tree: "族谱图",
+        directory: "通讯录",
+        settings: "设置",
+        searchPlaceholder: "查找家庭成员...",
+        export: "导出 SQL",
+        addMember: "添加成员",
+        addCenterMember: "添加核心成员",
+        emptyStateTitle: "开始您的家族树",
+        emptyStateDesc: "暂无数据。请先添加您自己作为核心成员。",
+        name: "姓名",
+        nameZh: "中文名",
+        role: "角色 / 关系",
+        birthDate: "出生日期",
+        location: "地点",
+        save: "保存",
+        cancel: "取消",
+        delete: "删除",
+        edit: "编辑",
+        setAsSelf: "设为自己",
+        isSelf: "我",
+        connectPrompt: "从圆点拖动以连接",
+        connectionLabel: "关系称呼",
+        connectionLabelZh: "关系称呼 (中文)",
+        sourceHandle: "起始位置",
+        targetHandle: "目标位置",
+        top: "上",
+        right: "右",
+        bottom: "下",
+        left: "左",
+        male: "男",
+        female: "女",
+        centerOnMe: "回到中心",
+        lock: "锁定",
+        unlock: "解锁",
+        autoArrange: "自动排列",
+        lineColor: "线条颜色",
+        lineStyle: "线条样式",
+        solid: "实线",
+        dashed: "虚线",
+        dotted: "点线",
+        calculatedRelation: "与我的关系"
+    }
+};
+}),
+"[project]/components/Navbar.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$locales$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/locales.ts [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$dbService$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/services/dbService.ts [app-ssr] (ecmascript)");
+;
+;
+;
+const Navbar = ({ currentView, setView, showChinese, setShowChinese })=>{
+    const t = __TURBOPACK__imported__module__$5b$project$5d2f$locales$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["translations"][showChinese ? 'zh' : 'en'];
+    const handleExport = async ()=>{
+        const sql = await __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$dbService$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["dbService"].exportAsSql();
+        const blob = new Blob([
+            sql
+        ], {
+            type: 'text/sql'
+        });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `robinson_family_tree_${new Date().toISOString().split('T')[0]}.sql`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
+        className: "fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 bg-white/60 dark:bg-black/60 backdrop-blur-md border-b border-white/20 dark:border-white/10 shadow-sm",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex items-center gap-6",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex items-center gap-3 text-slate-900 dark:text-white cursor-pointer",
+                    onClick: ()=>setView('tree'),
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "p-2 bg-primary/20 rounded-lg text-primary-dark dark:text-primary",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "material-symbols-outlined text-2xl",
+                                children: "account_tree"
+                            }, void 0, false, {
+                                fileName: "[project]/components/Navbar.tsx",
+                                lineNumber: 34,
+                                columnNumber: 25
+                            }, ("TURBOPACK compile-time value", void 0))
+                        }, void 0, false, {
+                            fileName: "[project]/components/Navbar.tsx",
+                            lineNumber: 33,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                            className: "text-xl font-bold tracking-tight hidden sm:block",
+                            children: t.appTitle
+                        }, void 0, false, {
+                            fileName: "[project]/components/Navbar.tsx",
+                            lineNumber: 36,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/Navbar.tsx",
+                    lineNumber: 32,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0))
+            }, void 0, false, {
+                fileName: "[project]/components/Navbar.tsx",
+                lineNumber: 31,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex items-center gap-4",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+                        className: "hidden lg:flex items-center gap-2 mr-4",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                onClick: ()=>setView('tree'),
+                                className: `px-4 py-2 rounded-xl text-sm font-bold transition-colors ${currentView === 'tree' ? 'bg-primary/20 text-primary-dark dark:text-primary' : 'hover:bg-black/5 dark:hover:bg-white/10'}`,
+                                children: t.tree
+                            }, void 0, false, {
+                                fileName: "[project]/components/Navbar.tsx",
+                                lineNumber: 42,
+                                columnNumber: 21
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                onClick: ()=>setView('directory'),
+                                className: `px-4 py-2 rounded-xl text-sm font-bold transition-colors ${currentView === 'directory' ? 'bg-primary/20 text-primary-dark dark:text-primary' : 'hover:bg-black/5 dark:hover:bg-white/10'}`,
+                                children: t.directory
+                            }, void 0, false, {
+                                fileName: "[project]/components/Navbar.tsx",
+                                lineNumber: 48,
+                                columnNumber: 21
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/Navbar.tsx",
+                        lineNumber: 41,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        onClick: ()=>setShowChinese(!showChinese),
+                        className: "flex items-center gap-1.5 px-3 py-1.5 bg-gray-100 dark:bg-white/10 hover:bg-gray-200 dark:hover:bg-white/20 rounded-lg transition-all",
+                        title: "Toggle Language",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "material-symbols-outlined text-[18px] text-gray-600 dark:text-gray-300",
+                                children: "translate"
+                            }, void 0, false, {
+                                fileName: "[project]/components/Navbar.tsx",
+                                lineNumber: 62,
+                                columnNumber: 21
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-xs font-bold font-mono text-gray-700 dark:text-gray-200 w-6 text-center",
+                                children: showChinese ? 'CN' : 'EN'
+                            }, void 0, false, {
+                                fileName: "[project]/components/Navbar.tsx",
+                                lineNumber: 63,
+                                columnNumber: 21
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/Navbar.tsx",
+                        lineNumber: 57,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex items-center gap-2",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: handleExport,
+                            className: "flex items-center gap-2 px-4 py-2 bg-primary hover:bg-primary-dark text-slate-900 rounded-xl text-sm font-bold transition-colors shadow-sm active:scale-95",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "material-symbols-outlined text-[20px]",
+                                    children: "database"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Navbar.tsx",
+                                    lineNumber: 73,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "hidden xl:inline",
+                                    children: t.export
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Navbar.tsx",
+                                    lineNumber: 74,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/Navbar.tsx",
+                            lineNumber: 69,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
+                    }, void 0, false, {
+                        fileName: "[project]/components/Navbar.tsx",
+                        lineNumber: 68,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "w-px h-8 bg-gray-200 dark:bg-gray-700 mx-1"
+                    }, void 0, false, {
+                        fileName: "[project]/components/Navbar.tsx",
+                        lineNumber: 78,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "h-10 w-10 rounded-full bg-cover bg-center border-2 border-white dark:border-gray-800 shadow-sm cursor-pointer hover:ring-2 hover:ring-primary transition-all",
+                        style: {
+                            backgroundImage: "url('https://picsum.photos/id/64/200/200')"
+                        }
+                    }, void 0, false, {
+                        fileName: "[project]/components/Navbar.tsx",
+                        lineNumber: 80,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0))
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/Navbar.tsx",
+                lineNumber: 40,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0))
+        ]
+    }, void 0, true, {
+        fileName: "[project]/components/Navbar.tsx",
+        lineNumber: 30,
+        columnNumber: 9
+    }, ("TURBOPACK compile-time value", void 0));
+};
+const __TURBOPACK__default__export__ = Navbar;
+}),
+"[project]/services/relationshipService.ts [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "calculateRelationshipToSelf",
+    ()=>calculateRelationshipToSelf
+]);
+// Map of Source-to-Target Label -> Inverse (Target-to-Source) generic classification
+// Example: If A -> B is "Son", then B -> A is a "Parent"
+const INVERSE_MAP = {
+    'son': 'parent',
+    'daughter': 'parent',
+    'child': 'parent',
+    'father': 'child',
+    'mother': 'child',
+    'parent': 'child',
+    'brother': 'sibling',
+    'sister': 'sibling',
+    'sibling': 'sibling',
+    'husband': 'wife',
+    'wife': 'husband',
+    'spouse': 'spouse',
+    'ex-husband': 'ex-wife',
+    'ex-wife': 'ex-husband',
+    'partner': 'partner'
+};
+const getInverseLabel = (originalLabel, sourceMember)=>{
+    const lowerLabel = originalLabel.toLowerCase();
+    const genericInverse = INVERSE_MAP[lowerLabel] || 'relative';
+    if (genericInverse === 'parent') {
+        return sourceMember.gender === 'male' ? 'Father' : 'Mother';
+    }
+    if (genericInverse === 'child') {
+        return sourceMember.gender === 'male' ? 'Son' : 'Daughter';
+    }
+    if (genericInverse === 'sibling') {
+        return sourceMember.gender === 'male' ? 'Brother' : 'Sister';
+    }
+    // For specific matches like husband/wife, return the map value directly if it exists, else capitalised generic
+    if (INVERSE_MAP[lowerLabel]) return INVERSE_MAP[lowerLabel].charAt(0).toUpperCase() + INVERSE_MAP[lowerLabel].slice(1);
+    return genericInverse.charAt(0).toUpperCase() + genericInverse.slice(1);
+};
+const calculateRelationshipToSelf = (targetId, members, connections, isChinese)=>{
+    const selfNode = members.find((m)=>m.isSelf);
+    if (!selfNode || selfNode.id === targetId) return null;
+    // Build Adjacency List
+    // We store { to: string, label: string }
+    const adj = {};
+    connections.forEach((conn)=>{
+        if (!adj[conn.sourceId]) adj[conn.sourceId] = [];
+        if (!adj[conn.targetId]) adj[conn.targetId] = [];
+        const sourceMember = members.find((m)=>m.id === conn.sourceId);
+        const targetMember = members.find((m)=>m.id === conn.targetId);
+        if (!sourceMember || !targetMember) return;
+        // 1. Forward Edge: Source -> Target
+        // If the label is "Son", it means Target is the Son of Source.
+        // So traversal Source -> Target yields "Son".
+        adj[conn.sourceId].push({
+            to: conn.targetId,
+            label: isChinese && conn.labelZh ? conn.labelZh : conn.label
+        });
+        // 2. Reverse Edge: Target -> Source
+        // If the label is "Son" (Target is Son of Source),
+        // Then traversal Target -> Source means Source is "Father" (if male) of Target.
+        const inverseLabel = isChinese ? "长辈/亲属" // Simplified for Chinese dynamic calculation, ideally needs a similar map
+         : getInverseLabel(conn.label, sourceMember);
+        // Simple Chinese mapping override for common terms
+        let finalInverse = inverseLabel;
+        if (isChinese) {
+            const mapZh = {
+                'Son': '父亲',
+                'Daughter': '父亲',
+                'Father': '儿子',
+                'Mother': '儿子'
+            };
+            // A proper Chinese kinship algo is complex, falling back to English logic or basic string
+            // For this demo, we will rely on the English calculation and basic translation or user manual input
+            // Ideally, Chinese requires specific fields. We will stick to the generated English one or generic.
+            finalInverse = "Linked"; // Placeholder for complex CH logic, or reuse English logic translated
+            if (inverseLabel === 'Father') finalInverse = '父亲';
+            if (inverseLabel === 'Mother') finalInverse = '母亲';
+            if (inverseLabel === 'Son') finalInverse = '儿子';
+            if (inverseLabel === 'Daughter') finalInverse = '女儿';
+            if (inverseLabel === 'Brother') finalInverse = '兄弟';
+            if (inverseLabel === 'Sister') finalInverse = '姐妹';
+            if (inverseLabel === 'Wife') finalInverse = '妻子';
+            if (inverseLabel === 'Husband') finalInverse = '丈夫';
+        }
+        adj[conn.targetId].push({
+            to: conn.sourceId,
+            label: finalInverse
+        });
+    });
+    // BFS
+    const queue = [
+        {
+            id: selfNode.id,
+            path: []
+        }
+    ];
+    const visited = new Set([
+        selfNode.id
+    ]);
+    while(queue.length > 0){
+        const { id, path } = queue.shift();
+        if (id === targetId) {
+            return path.join(' › ');
+        }
+        const neighbors = adj[id] || [];
+        for (const neighbor of neighbors){
+            if (!visited.has(neighbor.to)) {
+                visited.add(neighbor.to);
+                // Limit depth
+                if (path.length < 3) {
+                    queue.push({
+                        id: neighbor.to,
+                        path: [
+                            ...path,
+                            neighbor.label
+                        ]
+                    });
+                }
+            }
+        }
+    }
+    return null;
+};
+}),
+"[project]/components/EditConnectionModal.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$locales$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/locales.ts [app-ssr] (ecmascript)");
+;
+;
+;
+const EditConnectionModal = ({ isOpen, onClose, onSave, onDelete, connection, lang })=>{
+    const t = __TURBOPACK__imported__module__$5b$project$5d2f$locales$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["translations"][lang];
+    const [formData, setFormData] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])({});
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        if (isOpen && connection) {
+            setFormData({
+                ...connection,
+                color: connection.color || '#80ec13',
+                lineStyle: connection.lineStyle || 'solid'
+            });
+        }
+    }, [
+        isOpen,
+        connection
+    ]);
+    if (!isOpen || !connection) return null;
+    const handles = [
+        'top',
+        'right',
+        'bottom',
+        'left'
+    ];
+    const styles = [
+        'solid',
+        'dashed',
+        'dotted'
+    ];
+    const PRESETS = [
+        {
+            en: 'Father',
+            zh: '父亲'
+        },
+        {
+            en: 'Mother',
+            zh: '母亲'
+        },
+        {
+            en: 'Son',
+            zh: '儿子'
+        },
+        {
+            en: 'Daughter',
+            zh: '女儿'
+        },
+        {
+            en: 'Husband',
+            zh: '丈夫'
+        },
+        {
+            en: 'Wife',
+            zh: '妻子'
+        },
+        {
+            en: 'Brother',
+            zh: '兄弟'
+        },
+        {
+            en: 'Sister',
+            zh: '姐妹'
+        },
+        {
+            en: 'Ex-Husband',
+            zh: '前夫'
+        },
+        {
+            en: 'Ex-Wife',
+            zh: '前妻'
+        }
+    ];
+    const applyPreset = (p)=>{
+        setFormData((prev)=>({
+                ...prev,
+                label: p.en,
+                labelZh: p.zh
+            }));
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "fixed inset-0 z-[60] flex items-center justify-center bg-black/50 backdrop-blur-sm p-4",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "bg-white dark:bg-gray-800 rounded-2xl w-full max-w-md shadow-2xl overflow-hidden border border-gray-100 dark:border-gray-700 animate-[fadeIn_0.2s_ease-out]",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "px-6 py-4 border-b border-gray-100 dark:border-gray-700 flex justify-between items-center bg-gray-50 dark:bg-gray-900/50",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                        className: "font-bold text-lg text-slate-900 dark:text-white",
+                        children: "Edit Connection"
+                    }, void 0, false, {
+                        fileName: "[project]/components/EditConnectionModal.tsx",
+                        lineNumber: 54,
+                        columnNumber: 21
+                    }, ("TURBOPACK compile-time value", void 0))
+                }, void 0, false, {
+                    fileName: "[project]/components/EditConnectionModal.tsx",
+                    lineNumber: 53,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "p-6 space-y-5",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                    className: "text-xs font-bold text-gray-500 uppercase mb-2 block",
+                                    children: "Quick Presets"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/EditConnectionModal.tsx",
+                                    lineNumber: 61,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex flex-wrap gap-2",
+                                    children: PRESETS.map((p, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            onClick: ()=>applyPreset(p),
+                                            className: "px-3 py-1.5 text-xs font-medium bg-gray-100 dark:bg-white/10 hover:bg-primary/20 hover:text-primary-dark dark:hover:text-primary rounded-lg transition-colors border border-transparent hover:border-primary/30",
+                                            children: lang === 'zh' ? p.zh : p.en
+                                        }, i, false, {
+                                            fileName: "[project]/components/EditConnectionModal.tsx",
+                                            lineNumber: 64,
+                                            columnNumber: 33
+                                        }, ("TURBOPACK compile-time value", void 0)))
+                                }, void 0, false, {
+                                    fileName: "[project]/components/EditConnectionModal.tsx",
+                                    lineNumber: 62,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/EditConnectionModal.tsx",
+                            lineNumber: 60,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "grid grid-cols-2 gap-4",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "space-y-1",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                            className: "text-xs font-bold text-gray-500 uppercase",
+                                            children: t.connectionLabel
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/EditConnectionModal.tsx",
+                                            lineNumber: 77,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                            className: "w-full px-3 py-2 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-primary focus:outline-none",
+                                            value: formData.label || '',
+                                            onChange: (e)=>setFormData({
+                                                    ...formData,
+                                                    label: e.target.value
+                                                })
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/EditConnectionModal.tsx",
+                                            lineNumber: 78,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/EditConnectionModal.tsx",
+                                    lineNumber: 76,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "space-y-1",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                            className: "text-xs font-bold text-gray-500 uppercase",
+                                            children: t.connectionLabelZh
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/EditConnectionModal.tsx",
+                                            lineNumber: 85,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                            className: "w-full px-3 py-2 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-primary focus:outline-none",
+                                            value: formData.labelZh || '',
+                                            onChange: (e)=>setFormData({
+                                                    ...formData,
+                                                    labelZh: e.target.value
+                                                })
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/EditConnectionModal.tsx",
+                                            lineNumber: 86,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/EditConnectionModal.tsx",
+                                    lineNumber: 84,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/EditConnectionModal.tsx",
+                            lineNumber: 75,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "grid grid-cols-2 gap-4",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "space-y-1",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                            className: "text-xs font-bold text-gray-500 uppercase",
+                                            children: t.sourceHandle
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/EditConnectionModal.tsx",
+                                            lineNumber: 97,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
+                                            className: "w-full px-2 py-2 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg text-sm focus:ring-2 focus:ring-primary focus:outline-none",
+                                            value: formData.sourceHandle,
+                                            onChange: (e)=>setFormData({
+                                                    ...formData,
+                                                    sourceHandle: e.target.value
+                                                }),
+                                            children: handles.map((h)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                    value: h,
+                                                    children: t[h]
+                                                }, h, false, {
+                                                    fileName: "[project]/components/EditConnectionModal.tsx",
+                                                    lineNumber: 103,
+                                                    columnNumber: 51
+                                                }, ("TURBOPACK compile-time value", void 0)))
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/EditConnectionModal.tsx",
+                                            lineNumber: 98,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/EditConnectionModal.tsx",
+                                    lineNumber: 96,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "space-y-1",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                            className: "text-xs font-bold text-gray-500 uppercase",
+                                            children: t.targetHandle
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/EditConnectionModal.tsx",
+                                            lineNumber: 107,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
+                                            className: "w-full px-2 py-2 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg text-sm focus:ring-2 focus:ring-primary focus:outline-none",
+                                            value: formData.targetHandle,
+                                            onChange: (e)=>setFormData({
+                                                    ...formData,
+                                                    targetHandle: e.target.value
+                                                }),
+                                            children: handles.map((h)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                    value: h,
+                                                    children: t[h]
+                                                }, h, false, {
+                                                    fileName: "[project]/components/EditConnectionModal.tsx",
+                                                    lineNumber: 113,
+                                                    columnNumber: 51
+                                                }, ("TURBOPACK compile-time value", void 0)))
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/EditConnectionModal.tsx",
+                                            lineNumber: 108,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/EditConnectionModal.tsx",
+                                    lineNumber: 106,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/EditConnectionModal.tsx",
+                            lineNumber: 95,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "grid grid-cols-2 gap-4",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "space-y-1",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                            className: "text-xs font-bold text-gray-500 uppercase",
+                                            children: t.lineColor
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/EditConnectionModal.tsx",
+                                            lineNumber: 121,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "flex items-center gap-2 bg-gray-50 dark:bg-gray-900 p-1.5 rounded-lg border border-gray-200 dark:border-gray-700",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                    type: "color",
+                                                    className: "h-8 w-8 p-0 border-0 rounded cursor-pointer bg-transparent",
+                                                    value: formData.color || '#80ec13',
+                                                    onChange: (e)=>setFormData({
+                                                            ...formData,
+                                                            color: e.target.value
+                                                        })
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/EditConnectionModal.tsx",
+                                                    lineNumber: 123,
+                                                    columnNumber: 33
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: "text-xs text-gray-500 font-mono",
+                                                    children: formData.color
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/EditConnectionModal.tsx",
+                                                    lineNumber: 129,
+                                                    columnNumber: 33
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/EditConnectionModal.tsx",
+                                            lineNumber: 122,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/EditConnectionModal.tsx",
+                                    lineNumber: 120,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "space-y-1",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                            className: "text-xs font-bold text-gray-500 uppercase",
+                                            children: t.lineStyle
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/EditConnectionModal.tsx",
+                                            lineNumber: 133,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
+                                            className: "w-full px-2 py-2.5 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg text-sm focus:ring-2 focus:ring-primary focus:outline-none",
+                                            value: formData.lineStyle,
+                                            onChange: (e)=>setFormData({
+                                                    ...formData,
+                                                    lineStyle: e.target.value
+                                                }),
+                                            children: styles.map((s)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                    value: s,
+                                                    children: t[s]
+                                                }, s, false, {
+                                                    fileName: "[project]/components/EditConnectionModal.tsx",
+                                                    lineNumber: 139,
+                                                    columnNumber: 50
+                                                }, ("TURBOPACK compile-time value", void 0)))
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/EditConnectionModal.tsx",
+                                            lineNumber: 134,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/EditConnectionModal.tsx",
+                                    lineNumber: 132,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/EditConnectionModal.tsx",
+                            lineNumber: 119,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/EditConnectionModal.tsx",
+                    lineNumber: 57,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "p-6 pt-2 flex gap-3",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: ()=>{
+                                onDelete(connection.id);
+                                onClose();
+                            },
+                            className: "p-3 text-red-500 hover:bg-red-50 dark:hover:bg-red-900/20 rounded-xl transition-colors",
+                            title: t.delete,
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "material-symbols-outlined",
+                                children: "delete"
+                            }, void 0, false, {
+                                fileName: "[project]/components/EditConnectionModal.tsx",
+                                lineNumber: 151,
+                                columnNumber: 25
+                            }, ("TURBOPACK compile-time value", void 0))
+                        }, void 0, false, {
+                            fileName: "[project]/components/EditConnectionModal.tsx",
+                            lineNumber: 146,
+                            columnNumber: 22
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: onClose,
+                            className: "flex-1 py-3 rounded-xl font-bold text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors",
+                            children: t.cancel
+                        }, void 0, false, {
+                            fileName: "[project]/components/EditConnectionModal.tsx",
+                            lineNumber: 153,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: ()=>onSave(formData),
+                            className: "flex-1 py-3 bg-primary hover:bg-primary-dark text-slate-900 rounded-xl font-bold transition-colors shadow-lg shadow-primary/20",
+                            children: t.save
+                        }, void 0, false, {
+                            fileName: "[project]/components/EditConnectionModal.tsx",
+                            lineNumber: 156,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/EditConnectionModal.tsx",
+                    lineNumber: 145,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0))
+            ]
+        }, void 0, true, {
+            fileName: "[project]/components/EditConnectionModal.tsx",
+            lineNumber: 52,
+            columnNumber: 13
+        }, ("TURBOPACK compile-time value", void 0))
+    }, void 0, false, {
+        fileName: "[project]/components/EditConnectionModal.tsx",
+        lineNumber: 51,
+        columnNumber: 9
+    }, ("TURBOPACK compile-time value", void 0));
+};
+const __TURBOPACK__default__export__ = EditConnectionModal;
+}),
+"[project]/views/TreeView.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$dbService$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/services/dbService.ts [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$relationshipService$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/services/relationshipService.ts [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$locales$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/locales.ts [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$EditConnectionModal$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/EditConnectionModal.tsx [app-ssr] (ecmascript)");
+;
+;
+;
+;
+;
+;
+const CARD_WIDTH = 260;
+const CARD_HEIGHT = 100;
+const TreeView = ({ selectedId, onSelect, showChinese, members, connections, onDataChange, onEditMember })=>{
+    const lang = showChinese ? 'zh' : 'en';
+    const t = __TURBOPACK__imported__module__$5b$project$5d2f$locales$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["translations"][lang];
+    // Local UI State
+    const [scale, setScale] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(1);
+    const [offset, setOffset] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])({
+        x: 0,
+        y: 0
+    });
+    const [isLocked, setIsLocked] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(true);
+    // Interaction States
+    const [draggingNodeId, setDraggingNodeId] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
+    const [connectingStart, setConnectingStart] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
+    const [tempLineEnd, setTempLineEnd] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
+    // Modals (Only Connection modal stays local as it's view-specific interaction, member modal is global)
+    const [isConnModalOpen, setIsConnModalOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [editingConnection, setEditingConnection] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
+    // Pending Connection (Dragging line to empty space)
+    const [pendingConnection, setPendingConnection] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
+    const containerRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const isCanvasDragging = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(false);
+    const lastPos = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])({
+        x: 0,
+        y: 0
+    });
+    // Center on mount
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        centerOnSelf();
+    }, []); // Only on mount
+    const centerOnSelf = ()=>{
+        const self = members.find((m)=>m.isSelf);
+        if (self && containerRef.current) {
+            const { width, height } = containerRef.current.getBoundingClientRect();
+            setOffset({
+                x: width / 2 - self.x * scale,
+                y: height / 2 - self.y * scale
+            });
+        }
+    };
+    const getHandlePosition = (x, y, handle)=>{
+        const cx = x;
+        const cy = y;
+        switch(handle){
+            case 'top':
+                return {
+                    x: cx + CARD_WIDTH / 2,
+                    y: cy
+                };
+            case 'right':
+                return {
+                    x: cx + CARD_WIDTH,
+                    y: cy + CARD_HEIGHT / 2
+                };
+            case 'bottom':
+                return {
+                    x: cx + CARD_WIDTH / 2,
+                    y: cy + CARD_HEIGHT
+                };
+            case 'left':
+                return {
+                    x: cx,
+                    y: cy + CARD_HEIGHT / 2
+                };
+        }
+    };
+    const generatePath = (startX, startY, startHandle, endX, endY, endHandle)=>{
+        const dist = Math.abs(endX - startX) + Math.abs(endY - startY);
+        const controlDist = Math.min(200, Math.max(50, dist * 0.4));
+        const getControl = (x, y, h, d)=>{
+            switch(h){
+                case 'top':
+                    return {
+                        x,
+                        y: y - d
+                    };
+                case 'bottom':
+                    return {
+                        x,
+                        y: y + d
+                    };
+                case 'left':
+                    return {
+                        x: x - d,
+                        y
+                    };
+                case 'right':
+                    return {
+                        x: x + d,
+                        y
+                    };
+            }
+        };
+        const cp1 = getControl(startX, startY, startHandle, controlDist);
+        const cp2 = getControl(endX, endY, endHandle, controlDist);
+        return `M ${startX} ${startY} C ${cp1.x} ${cp1.y}, ${cp2.x} ${cp2.y}, ${endX} ${endY}`;
+    };
+    const getDashArray = (style)=>{
+        switch(style){
+            case 'dashed':
+                return '8 4';
+            case 'dotted':
+                return '2 2';
+            default:
+                return '';
+        }
+    };
+    // --- Interaction Handlers ---
+    const handleMouseDown = (e)=>{
+        if (!e.target || e.target.closest('.node-card, button, .handle')) return;
+        isCanvasDragging.current = true;
+        lastPos.current = {
+            x: e.clientX,
+            y: e.clientY
+        };
+    };
+    const handleMouseMove = (e)=>{
+        const dx = e.clientX - lastPos.current.x;
+        const dy = e.clientY - lastPos.current.y;
+        lastPos.current = {
+            x: e.clientX,
+            y: e.clientY
+        };
+        if (draggingNodeId && !isLocked) {
+            // Optimistic update for drag
+            // NOTE: This modifies props locally in memory for smooth drag, but doesn't persist until MouseUp
+            // Since we can't mutate props, we rely on React re-renders. 
+            // For high perf dragging, usually we use local state or refs, then commit.
+            // Simplified here: We will trigger a specific fast update or just wait for global if fast enough.
+            // Actually, for this code structure, we need to temporarily update local representation
+            // or modify the object directly (mutable style) since we are refreshing from DB on every save anyway.
+            const member = members.find((m)=>m.id === draggingNodeId);
+            if (member) {
+                member.x += dx / scale;
+                member.y += dy / scale;
+            // Force Update? 
+            // We'll rely on the parent refresh on MouseUp, but for smoothness we need a local state override.
+            // Given the constraints, let's just use the `members` prop but trigger a re-render by setDummy.
+            // A better way for production: use a local map of overrides.
+            }
+            // Trigger re-render
+            setDraggingNodeId(draggingNodeId);
+        } else if (connectingStart) {
+            if (containerRef.current) {
+                const rect = containerRef.current.getBoundingClientRect();
+                const mx = (e.clientX - rect.left - offset.x) / scale;
+                const my = (e.clientY - rect.top - offset.y) / scale;
+                setTempLineEnd({
+                    x: mx,
+                    y: my
+                });
+            }
+        } else if (isCanvasDragging.current) {
+            setOffset((prev)=>({
+                    x: prev.x + dx,
+                    y: prev.y + dy
+                }));
+        }
+    };
+    const handleMouseUp = ()=>{
+        if (draggingNodeId) {
+            const member = members.find((m)=>m.id === draggingNodeId);
+            if (member) {
+                __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$dbService$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["dbService"].updateMember(member);
+                onDataChange();
+            }
+            setDraggingNodeId(null);
+        }
+        // Drop to create new member
+        if (connectingStart && tempLineEnd) {
+            const newX = tempLineEnd.x - CARD_WIDTH / 2;
+            const newY = tempLineEnd.y - CARD_HEIGHT / 2;
+            // Create a temporary object to pass to the modal logic
+            const newId = crypto.randomUUID();
+            const newMember = {
+                id: newId,
+                name: '',
+                role: '',
+                x: newX,
+                y: newY,
+                gender: 'male',
+                avatar: `https://picsum.photos/seed/${Date.now()}/200/200`
+            };
+            // Pre-save connection logic so when modal saves member, we add connection
+            // We can't use pendingConnection state easily with the global modal unless we handle it here.
+            // Strategy: We will add the Member immediately as a "Draft" or just pass it to the global handler.
+            // Let's create the connection immediately but it might point to a non-existent ID until modal saves?
+            // No, better to pass this "Draft" to the modal. 
+            // Since onEditMember takes a member, let's create it in DB then open edit?
+            // Or better: Pass a callback to the parent?
+            // Simplest: Create the member with default values, save to DB, add connection, then open Modal.
+            __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$dbService$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["dbService"].addMember(newMember);
+            const newConn = {
+                id: crypto.randomUUID(),
+                sourceId: connectingStart.id,
+                targetId: newId,
+                sourceHandle: connectingStart.handle,
+                targetHandle: 'top',
+                label: 'Relation',
+                labelZh: '关系'
+            };
+            __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$dbService$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["dbService"].addConnection(newConn);
+            onDataChange(); // Refresh parent
+            setTimeout(()=>onEditMember(newMember), 50); // Open modal for the new member
+        }
+        setConnectingStart(null);
+        setTempLineEnd(null);
+        isCanvasDragging.current = false;
+    };
+    // --- Logic Handlers ---
+    const onHandleMouseDown = (e, id, handle)=>{
+        e.stopPropagation();
+        if (isLocked) return;
+        setConnectingStart({
+            id,
+            handle
+        });
+    };
+    const onHandleMouseUp = (e, targetId, targetHandle)=>{
+        e.stopPropagation();
+        if (connectingStart && connectingStart.id !== targetId) {
+            const newConn = {
+                id: crypto.randomUUID(),
+                sourceId: connectingStart.id,
+                targetId,
+                sourceHandle: connectingStart.handle,
+                targetHandle,
+                label: 'Relation',
+                labelZh: '关系'
+            };
+            __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$dbService$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["dbService"].addConnection(newConn);
+            onDataChange();
+        }
+        setConnectingStart(null);
+        setTempLineEnd(null);
+    };
+    const handleSaveConnection = (conn)=>{
+        __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$dbService$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["dbService"].updateConnection(conn);
+        onDataChange();
+        setIsConnModalOpen(false);
+        setEditingConnection(null);
+    };
+    const handleDeleteConnection = (id)=>{
+        __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$dbService$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["dbService"].deleteConnection(id);
+        onDataChange();
+    };
+    const handleEditClick = (e, node)=>{
+        e.stopPropagation();
+        onEditMember(node);
+    };
+    // --- Empty State ---
+    if (members.length === 0) {
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex-1 flex flex-col items-center justify-center bg-background-light dark:bg-background-dark p-6",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "text-center space-y-6 max-w-md",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "w-24 h-24 bg-primary/20 rounded-full flex items-center justify-center mx-auto text-primary",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            className: "material-symbols-outlined text-5xl",
+                            children: "forest"
+                        }, void 0, false, {
+                            fileName: "[project]/views/TreeView.tsx",
+                            lineNumber: 256,
+                            columnNumber: 25
+                        }, ("TURBOPACK compile-time value", void 0))
+                    }, void 0, false, {
+                        fileName: "[project]/views/TreeView.tsx",
+                        lineNumber: 255,
+                        columnNumber: 21
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                className: "text-2xl font-bold text-slate-900 dark:text-white mb-2",
+                                children: t.emptyStateTitle
+                            }, void 0, false, {
+                                fileName: "[project]/views/TreeView.tsx",
+                                lineNumber: 259,
+                                columnNumber: 25
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-gray-500 dark:text-gray-400",
+                                children: t.emptyStateDesc
+                            }, void 0, false, {
+                                fileName: "[project]/views/TreeView.tsx",
+                                lineNumber: 260,
+                                columnNumber: 25
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/views/TreeView.tsx",
+                        lineNumber: 258,
+                        columnNumber: 21
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        onClick: ()=>{
+                            const newMember = {
+                                id: crypto.randomUUID(),
+                                name: '',
+                                role: 'Me',
+                                x: 0,
+                                y: 0,
+                                gender: 'male',
+                                avatar: 'https://picsum.photos/200',
+                                isSelf: true
+                            };
+                            onEditMember(newMember);
+                        },
+                        className: "px-8 py-3 bg-primary hover:bg-primary-dark text-slate-900 font-bold rounded-xl shadow-lg shadow-primary/20 transition-all hover:scale-105",
+                        children: t.addCenterMember
+                    }, void 0, false, {
+                        fileName: "[project]/views/TreeView.tsx",
+                        lineNumber: 262,
+                        columnNumber: 21
+                    }, ("TURBOPACK compile-time value", void 0))
+                ]
+            }, void 0, true, {
+                fileName: "[project]/views/TreeView.tsx",
+                lineNumber: 254,
+                columnNumber: 17
+            }, ("TURBOPACK compile-time value", void 0))
+        }, void 0, false, {
+            fileName: "[project]/views/TreeView.tsx",
+            lineNumber: 253,
+            columnNumber: 13
+        }, ("TURBOPACK compile-time value", void 0));
+    }
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "flex-1 relative overflow-hidden bg-background-light dark:bg-background-dark cursor-grab active:cursor-grabbing h-full selection:bg-none",
+        onMouseDown: handleMouseDown,
+        onMouseMove: handleMouseMove,
+        onMouseUp: handleMouseUp,
+        onMouseLeave: handleMouseUp,
+        ref: containerRef,
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 bg-grid-pattern dark:bg-grid-pattern-dark bg-grid opacity-40 pointer-events-none"
+            }, void 0, false, {
+                fileName: "[project]/views/TreeView.tsx",
+                lineNumber: 286,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 transform-gpu transition-transform duration-75 origin-top-left",
+                style: {
+                    transform: `translate(${offset.x}px, ${offset.y}px) scale(${scale})`
+                },
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                        className: "absolute top-0 left-0 overflow-visible z-0",
+                        style: {
+                            width: 1,
+                            height: 1
+                        },
+                        children: [
+                            connections.map((conn)=>{
+                                const source = members.find((m)=>m.id === conn.sourceId);
+                                const target = members.find((m)=>m.id === conn.targetId);
+                                if (!source || !target) return null;
+                                const start = getHandlePosition(source.x, source.y, conn.sourceHandle);
+                                const end = getHandlePosition(target.x, target.y, conn.targetHandle);
+                                const path = generatePath(start.x, start.y, conn.sourceHandle, end.x, end.y, conn.targetHandle);
+                                // Center label
+                                const midX = (start.x + end.x) / 2;
+                                const midY = (start.y + end.y) / 2;
+                                const color = conn.color || (showChinese ? '#e5e7eb' : '#e5e7eb');
+                                return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("g", {
+                                    className: "group cursor-pointer",
+                                    onClick: (e)=>{
+                                        e.stopPropagation();
+                                        setEditingConnection(conn);
+                                        setIsConnModalOpen(true);
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                            d: path,
+                                            fill: "none",
+                                            stroke: "transparent",
+                                            strokeWidth: 15
+                                        }, void 0, false, {
+                                            fileName: "[project]/views/TreeView.tsx",
+                                            lineNumber: 312,
+                                            columnNumber: 33
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                            d: path,
+                                            fill: "none",
+                                            stroke: conn.color || '#e5e7eb',
+                                            strokeWidth: 3,
+                                            strokeDasharray: getDashArray(conn.lineStyle),
+                                            className: "dark:stroke-gray-600 transition-colors group-hover:stroke-primary/80"
+                                        }, void 0, false, {
+                                            fileName: "[project]/views/TreeView.tsx",
+                                            lineNumber: 313,
+                                            columnNumber: 33
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("foreignObject", {
+                                            x: midX - 40,
+                                            y: midY - 12,
+                                            width: 80,
+                                            height: 24,
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "flex items-center justify-center px-2 py-0.5 bg-white dark:bg-gray-800 border rounded-full shadow-sm text-[10px] font-bold text-center truncate select-none hover:scale-110 transition-transform",
+                                                style: {
+                                                    borderColor: conn.color || '#80ec13',
+                                                    color: conn.color || 'inherit'
+                                                },
+                                                children: showChinese && conn.labelZh ? conn.labelZh : conn.label
+                                            }, void 0, false, {
+                                                fileName: "[project]/views/TreeView.tsx",
+                                                lineNumber: 322,
+                                                columnNumber: 37
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        }, void 0, false, {
+                                            fileName: "[project]/views/TreeView.tsx",
+                                            lineNumber: 321,
+                                            columnNumber: 33
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, conn.id, true, {
+                                    fileName: "[project]/views/TreeView.tsx",
+                                    lineNumber: 311,
+                                    columnNumber: 29
+                                }, ("TURBOPACK compile-time value", void 0));
+                            }),
+                            connectingStart && tempLineEnd && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                d: `M ${getHandlePosition(members.find((m)=>m.id === connectingStart.id).x, members.find((m)=>m.id === connectingStart.id).y, connectingStart.handle).x} ${getHandlePosition(members.find((m)=>m.id === connectingStart.id).x, members.find((m)=>m.id === connectingStart.id).y, connectingStart.handle).y} L ${tempLineEnd.x} ${tempLineEnd.y}`,
+                                fill: "none",
+                                stroke: "#80ec13",
+                                strokeWidth: 2,
+                                strokeDasharray: "5 5"
+                            }, void 0, false, {
+                                fileName: "[project]/views/TreeView.tsx",
+                                lineNumber: 335,
+                                columnNumber: 25
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/views/TreeView.tsx",
+                        lineNumber: 293,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    members.map((node)=>{
+                        const relationPath = (0, __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$relationshipService$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["calculateRelationshipToSelf"])(node.id, members, connections, showChinese);
+                        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: `absolute node-card group ${isLocked ? '' : 'cursor-move'}`,
+                            style: {
+                                transform: `translate(${node.x}px, ${node.y}px)`,
+                                width: CARD_WIDTH,
+                                height: CARD_HEIGHT
+                            },
+                            onMouseDown: (e)=>{
+                                e.stopPropagation();
+                                if (!isLocked) setDraggingNodeId(node.id);
+                            },
+                            onClick: (e)=>{
+                                e.stopPropagation();
+                                onSelect(node.id);
+                            },
+                            onDoubleClick: (e)=>handleEditClick(e, node),
+                            children: [
+                                !isLocked && [
+                                    'top',
+                                    'right',
+                                    'bottom',
+                                    'left'
+                                ].map((handle)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: `
+                                        absolute w-4 h-4 bg-white dark:bg-gray-800 border-2 border-primary rounded-full z-30 cursor-crosshair handle
+                                        transition-all hover:scale-150 hover:bg-primary
+                                        ${handle === 'top' ? '-top-2 left-1/2 -translate-x-1/2' : ''}
+                                        ${handle === 'right' ? '-right-2 top-1/2 -translate-y-1/2' : ''}
+                                        ${handle === 'bottom' ? '-bottom-2 left-1/2 -translate-x-1/2' : ''}
+                                        ${handle === 'left' ? '-left-2 top-1/2 -translate-y-1/2' : ''}
+                                        ${connectingStart ? 'opacity-100 scale-110' : 'opacity-0 group-hover:opacity-100'}
+                                    `,
+                                        onMouseDown: (e)=>onHandleMouseDown(e, node.id, handle),
+                                        onMouseUp: (e)=>onHandleMouseUp(e, node.id, handle),
+                                        title: t.connectPrompt
+                                    }, handle, false, {
+                                        fileName: "[project]/views/TreeView.tsx",
+                                        lineNumber: 372,
+                                        columnNumber: 33
+                                    }, ("TURBOPACK compile-time value", void 0))),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: `
+                                w-full h-full p-4 rounded-xl flex items-center gap-4 transition-all select-none
+                                ${selectedId === node.id ? 'bg-card-light dark:bg-card-dark backdrop-blur-md ring-2 ring-primary shadow-xl border-primary' : 'bg-card-light dark:bg-card-dark backdrop-blur-md border border-white/50 dark:border-white/10 shadow-lg hover:border-primary/50'}
+                            `,
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "relative",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "w-14 h-14 rounded-full bg-cover bg-center border-2 border-white dark:border-gray-700 shadow-sm pointer-events-none",
+                                                    style: {
+                                                        backgroundImage: `url('${node.avatar}')`
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "[project]/views/TreeView.tsx",
+                                                    lineNumber: 398,
+                                                    columnNumber: 37
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                node.isSelf && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "absolute -bottom-1 -right-1 flex items-center justify-center w-5 h-5 bg-primary rounded-full border-2 border-white dark:border-gray-800 text-[10px] font-bold text-slate-900",
+                                                    title: "Me",
+                                                    children: "M"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/views/TreeView.tsx",
+                                                    lineNumber: 403,
+                                                    columnNumber: 42
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/views/TreeView.tsx",
+                                            lineNumber: 397,
+                                            columnNumber: 33
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "flex-1 min-w-0 text-left pointer-events-none",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                    className: "text-slate-900 dark:text-white font-bold truncate",
+                                                    children: showChinese && node.nameZh ? node.nameZh : node.name
+                                                }, void 0, false, {
+                                                    fileName: "[project]/views/TreeView.tsx",
+                                                    lineNumber: 409,
+                                                    columnNumber: 37
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-xs text-gray-500 dark:text-gray-400 font-medium",
+                                                    children: node.birthDate || 'Unknown'
+                                                }, void 0, false, {
+                                                    fileName: "[project]/views/TreeView.tsx",
+                                                    lineNumber: 412,
+                                                    columnNumber: 37
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                relationPath && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-[10px] text-primary-dark dark:text-primary font-bold mt-1 truncate",
+                                                    title: relationPath,
+                                                    children: relationPath
+                                                }, void 0, false, {
+                                                    fileName: "[project]/views/TreeView.tsx",
+                                                    lineNumber: 418,
+                                                    columnNumber: 41
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                !relationPath && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: "inline-block mt-1 text-[10px] uppercase tracking-wider text-gray-400",
+                                                    children: node.role
+                                                }, void 0, false, {
+                                                    fileName: "[project]/views/TreeView.tsx",
+                                                    lineNumber: 423,
+                                                    columnNumber: 41
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/views/TreeView.tsx",
+                                            lineNumber: 408,
+                                            columnNumber: 33
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        !isLocked && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            onClick: (e)=>handleEditClick(e, node),
+                                            className: "p-1.5 hover:bg-black/5 dark:hover:bg-white/10 rounded-lg text-gray-400 hover:text-primary transition-colors z-20 relative",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "material-symbols-outlined text-[18px]",
+                                                children: "edit"
+                                            }, void 0, false, {
+                                                fileName: "[project]/views/TreeView.tsx",
+                                                lineNumber: 433,
+                                                columnNumber: 41
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        }, void 0, false, {
+                                            fileName: "[project]/views/TreeView.tsx",
+                                            lineNumber: 429,
+                                            columnNumber: 37
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/views/TreeView.tsx",
+                                    lineNumber: 390,
+                                    columnNumber: 29
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, node.id, true, {
+                            fileName: "[project]/views/TreeView.tsx",
+                            lineNumber: 358,
+                            columnNumber: 25
+                        }, ("TURBOPACK compile-time value", void 0));
+                    })
+                ]
+            }, void 0, true, {
+                fileName: "[project]/views/TreeView.tsx",
+                lineNumber: 288,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute bottom-40 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-4",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex items-center gap-2 p-2 bg-white/80 dark:bg-black/60 backdrop-blur-md rounded-2xl shadow-lg border border-white/20 dark:border-white/10",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: ()=>setIsLocked(!isLocked),
+                            className: `w-10 h-10 flex items-center justify-center rounded-xl transition-colors ${isLocked ? 'text-gray-500 hover:bg-black/5 dark:hover:bg-white/10' : 'text-primary bg-primary/10 ring-2 ring-primary/20'}`,
+                            title: isLocked ? t.unlock : t.lock,
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "material-symbols-outlined",
+                                children: isLocked ? 'lock' : 'lock_open'
+                            }, void 0, false, {
+                                fileName: "[project]/views/TreeView.tsx",
+                                lineNumber: 450,
+                                columnNumber: 25
+                            }, ("TURBOPACK compile-time value", void 0))
+                        }, void 0, false, {
+                            fileName: "[project]/views/TreeView.tsx",
+                            lineNumber: 445,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "w-px h-6 bg-gray-300 dark:bg-gray-600 mx-1"
+                        }, void 0, false, {
+                            fileName: "[project]/views/TreeView.tsx",
+                            lineNumber: 452,
+                            columnNumber: 22
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: ()=>centerOnSelf(),
+                            className: "w-10 h-10 flex items-center justify-center rounded-xl hover:bg-black/5 dark:hover:bg-white/10 text-gray-700 dark:text-gray-200 transition-colors",
+                            title: t.centerOnMe,
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "material-symbols-outlined",
+                                children: "my_location"
+                            }, void 0, false, {
+                                fileName: "[project]/views/TreeView.tsx",
+                                lineNumber: 458,
+                                columnNumber: 26
+                            }, ("TURBOPACK compile-time value", void 0))
+                        }, void 0, false, {
+                            fileName: "[project]/views/TreeView.tsx",
+                            lineNumber: 453,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "w-px h-6 bg-gray-300 dark:bg-gray-600 mx-1"
+                        }, void 0, false, {
+                            fileName: "[project]/views/TreeView.tsx",
+                            lineNumber: 460,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: ()=>setScale((s)=>Math.max(0.5, s - 0.1)),
+                            className: "w-10 h-10 flex items-center justify-center rounded-xl hover:bg-black/5 dark:hover:bg-white/10 text-gray-700 dark:text-gray-200 transition-colors",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "material-symbols-outlined",
+                                children: "remove"
+                            }, void 0, false, {
+                                fileName: "[project]/views/TreeView.tsx",
+                                lineNumber: 465,
+                                columnNumber: 25
+                            }, ("TURBOPACK compile-time value", void 0))
+                        }, void 0, false, {
+                            fileName: "[project]/views/TreeView.tsx",
+                            lineNumber: 461,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "px-2 text-sm font-semibold text-gray-600 dark:text-gray-300 min-w-[3rem] text-center",
+                            children: [
+                                Math.round(scale * 100),
+                                "%"
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/views/TreeView.tsx",
+                            lineNumber: 467,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: ()=>setScale((s)=>Math.min(2, s + 0.1)),
+                            className: "w-10 h-10 flex items-center justify-center rounded-xl hover:bg-black/5 dark:hover:bg-white/10 text-gray-700 dark:text-gray-200 transition-colors",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "material-symbols-outlined",
+                                children: "add"
+                            }, void 0, false, {
+                                fileName: "[project]/views/TreeView.tsx",
+                                lineNumber: 474,
+                                columnNumber: 25
+                            }, ("TURBOPACK compile-time value", void 0))
+                        }, void 0, false, {
+                            fileName: "[project]/views/TreeView.tsx",
+                            lineNumber: 470,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/views/TreeView.tsx",
+                    lineNumber: 444,
+                    columnNumber: 18
+                }, ("TURBOPACK compile-time value", void 0))
+            }, void 0, false, {
+                fileName: "[project]/views/TreeView.tsx",
+                lineNumber: 443,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute bottom-40 right-8 z-20 flex flex-col gap-4 items-end",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                    onClick: ()=>{
+                        const newMember = {
+                            id: crypto.randomUUID(),
+                            name: '',
+                            role: '',
+                            x: 0,
+                            y: 0,
+                            gender: 'male',
+                            avatar: 'https://picsum.photos/200'
+                        };
+                        onEditMember(newMember);
+                    },
+                    className: "w-16 h-16 bg-primary hover:bg-primary-dark text-slate-900 rounded-2xl shadow-[0_8px_30px_rgb(128,236,19,0.3)] flex items-center justify-center transition-all hover:scale-110 active:scale-95 group",
+                    title: t.addMember,
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        className: "material-symbols-outlined text-3xl",
+                        children: "add"
+                    }, void 0, false, {
+                        fileName: "[project]/views/TreeView.tsx",
+                        lineNumber: 489,
+                        columnNumber: 21
+                    }, ("TURBOPACK compile-time value", void 0))
+                }, void 0, false, {
+                    fileName: "[project]/views/TreeView.tsx",
+                    lineNumber: 481,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0))
+            }, void 0, false, {
+                fileName: "[project]/views/TreeView.tsx",
+                lineNumber: 480,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$EditConnectionModal$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                isOpen: isConnModalOpen,
+                onClose: ()=>setIsConnModalOpen(false),
+                onSave: handleSaveConnection,
+                onDelete: handleDeleteConnection,
+                connection: editingConnection,
+                lang: lang
+            }, void 0, false, {
+                fileName: "[project]/views/TreeView.tsx",
+                lineNumber: 493,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0))
+        ]
+    }, void 0, true, {
+        fileName: "[project]/views/TreeView.tsx",
+        lineNumber: 277,
+        columnNumber: 9
+    }, ("TURBOPACK compile-time value", void 0));
+};
+const __TURBOPACK__default__export__ = TreeView;
+}),
+"[project]/views/DirectoryView.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+;
+const DirectoryView = ({ onSelect, showChinese, members })=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "flex-1 overflow-y-auto pt-24 pb-40 px-6 md:px-10 bg-background-light dark:bg-background-dark",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "max-w-[1400px] mx-auto flex flex-col gap-8",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "grid grid-cols-1 sm:grid-cols-2 gap-4",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex flex-col gap-1 p-5 rounded-xl bg-white dark:bg-card-dark border border-gray-100 dark:border-white/5 shadow-sm",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex justify-between items-start",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-gray-500 dark:text-gray-400 text-sm font-medium",
+                                        children: "Total Members"
+                                    }, void 0, false, {
+                                        fileName: "[project]/views/DirectoryView.tsx",
+                                        lineNumber: 20,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "material-symbols-outlined text-primary",
+                                        children: "groups"
+                                    }, void 0, false, {
+                                        fileName: "[project]/views/DirectoryView.tsx",
+                                        lineNumber: 21,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/views/DirectoryView.tsx",
+                                lineNumber: 19,
+                                columnNumber: 25
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-2xl font-bold text-slate-900 dark:text-white",
+                                children: members.length
+                            }, void 0, false, {
+                                fileName: "[project]/views/DirectoryView.tsx",
+                                lineNumber: 23,
+                                columnNumber: 25
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/views/DirectoryView.tsx",
+                        lineNumber: 18,
+                        columnNumber: 21
+                    }, ("TURBOPACK compile-time value", void 0))
+                }, void 0, false, {
+                    fileName: "[project]/views/DirectoryView.tsx",
+                    lineNumber: 17,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6",
+                    children: members.map((member)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "group relative flex flex-col bg-white dark:bg-card-dark rounded-xl border border-gray-100 dark:border-white/5 shadow-sm overflow-hidden transition-all hover:shadow-md hover:border-primary/50",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "p-6 flex flex-col items-center gap-4 border-b border-gray-50 dark:border-white/5",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "size-24 rounded-full bg-cover bg-center border-4 border-white dark:border-gray-700 shadow-sm group-hover:scale-105 transition-transform duration-300",
+                                            style: {
+                                                backgroundImage: `url('${member.avatar}')`
+                                            }
+                                        }, void 0, false, {
+                                            fileName: "[project]/views/DirectoryView.tsx",
+                                            lineNumber: 32,
+                                            columnNumber: 33
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "text-center",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                    className: "text-lg font-bold text-slate-900 dark:text-white",
+                                                    children: showChinese && member.nameZh ? member.nameZh : member.name
+                                                }, void 0, false, {
+                                                    fileName: "[project]/views/DirectoryView.tsx",
+                                                    lineNumber: 34,
+                                                    columnNumber: 37
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-sm text-gray-500 dark:text-gray-400",
+                                                    children: member.role
+                                                }, void 0, false, {
+                                                    fileName: "[project]/views/DirectoryView.tsx",
+                                                    lineNumber: 37,
+                                                    columnNumber: 37
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/views/DirectoryView.tsx",
+                                            lineNumber: 33,
+                                            columnNumber: 33
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "flex gap-2",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 dark:bg-white/10 text-gray-600 dark:text-gray-300 capitalize",
+                                                children: member.gender
+                                            }, void 0, false, {
+                                                fileName: "[project]/views/DirectoryView.tsx",
+                                                lineNumber: 40,
+                                                columnNumber: 37
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        }, void 0, false, {
+                                            fileName: "[project]/views/DirectoryView.tsx",
+                                            lineNumber: 39,
+                                            columnNumber: 33
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/views/DirectoryView.tsx",
+                                    lineNumber: 31,
+                                    columnNumber: 29
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "p-4 flex flex-col gap-3 text-sm",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "flex items-center gap-3 text-gray-500 dark:text-gray-400",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: "material-symbols-outlined text-[18px]",
+                                                    children: "cake"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/views/DirectoryView.tsx",
+                                                    lineNumber: 48,
+                                                    columnNumber: 37
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    children: member.birthDate || 'N/A'
+                                                }, void 0, false, {
+                                                    fileName: "[project]/views/DirectoryView.tsx",
+                                                    lineNumber: 49,
+                                                    columnNumber: 37
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/views/DirectoryView.tsx",
+                                            lineNumber: 47,
+                                            columnNumber: 33
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "flex items-center gap-3 text-gray-500 dark:text-gray-400",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: "material-symbols-outlined text-[18px]",
+                                                    children: "location_on"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/views/DirectoryView.tsx",
+                                                    lineNumber: 52,
+                                                    columnNumber: 37
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    children: member.location || 'N/A'
+                                                }, void 0, false, {
+                                                    fileName: "[project]/views/DirectoryView.tsx",
+                                                    lineNumber: 53,
+                                                    columnNumber: 37
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/views/DirectoryView.tsx",
+                                            lineNumber: 51,
+                                            columnNumber: 33
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/views/DirectoryView.tsx",
+                                    lineNumber: 46,
+                                    columnNumber: 29
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mt-auto p-4 bg-gray-50 dark:bg-white/5 flex items-center justify-between",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        onClick: ()=>onSelect(member.id),
+                                        className: "w-full text-center text-xs font-bold text-gray-600 dark:text-gray-300 hover:text-primary transition-colors",
+                                        children: "View Profile"
+                                    }, void 0, false, {
+                                        fileName: "[project]/views/DirectoryView.tsx",
+                                        lineNumber: 58,
+                                        columnNumber: 33
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/views/DirectoryView.tsx",
+                                    lineNumber: 57,
+                                    columnNumber: 29
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, member.id, true, {
+                            fileName: "[project]/views/DirectoryView.tsx",
+                            lineNumber: 30,
+                            columnNumber: 25
+                        }, ("TURBOPACK compile-time value", void 0)))
+                }, void 0, false, {
+                    fileName: "[project]/views/DirectoryView.tsx",
+                    lineNumber: 28,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0))
+            ]
+        }, void 0, true, {
+            fileName: "[project]/views/DirectoryView.tsx",
+            lineNumber: 14,
+            columnNumber: 13
+        }, ("TURBOPACK compile-time value", void 0))
+    }, void 0, false, {
+        fileName: "[project]/views/DirectoryView.tsx",
+        lineNumber: 13,
+        columnNumber: 9
+    }, ("TURBOPACK compile-time value", void 0));
+};
+const __TURBOPACK__default__export__ = DirectoryView;
+}),
+"[project]/views/SettingsView.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+;
+const SettingsView = ()=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "flex-1 overflow-y-auto pt-24 pb-20 px-6 md:px-10 bg-background-light dark:bg-background-dark",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "max-w-[960px] mx-auto flex flex-col gap-8 animate-fade-in",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex flex-wrap justify-between gap-4 p-4 items-end",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex flex-col gap-3",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                    className: "text-slate-900 dark:text-white text-4xl font-black leading-tight",
+                                    children: "Privacy & Visibility"
+                                }, void 0, false, {
+                                    fileName: "[project]/views/SettingsView.tsx",
+                                    lineNumber: 10,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-gray-600 dark:text-gray-400 text-base font-normal max-w-2xl",
+                                    children: "Manage visual hierarchy, control access permissions, and filter specific branches for your family tree visualization."
+                                }, void 0, false, {
+                                    fileName: "[project]/views/SettingsView.tsx",
+                                    lineNumber: 11,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/views/SettingsView.tsx",
+                            lineNumber: 9,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex gap-3",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                    className: "flex items-center justify-center h-10 px-5 text-sm font-bold bg-white dark:bg-white/10 border border-gray-200 dark:border-white/10 rounded-lg text-slate-900 dark:text-white hover:bg-gray-50 dark:hover:bg-white/20 transition-colors",
+                                    children: "Cancel"
+                                }, void 0, false, {
+                                    fileName: "[project]/views/SettingsView.tsx",
+                                    lineNumber: 16,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                    className: "flex items-center justify-center h-10 px-5 text-sm font-bold bg-primary text-slate-900 rounded-lg hover:bg-primary-dark transition-colors shadow-lg shadow-primary/20",
+                                    children: "Save Changes"
+                                }, void 0, false, {
+                                    fileName: "[project]/views/SettingsView.tsx",
+                                    lineNumber: 19,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/views/SettingsView.tsx",
+                            lineNumber: 15,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/views/SettingsView.tsx",
+                    lineNumber: 8,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                    className: "rounded-2xl bg-white/70 dark:bg-card-dark backdrop-blur-md border border-white/60 dark:border-white/5 shadow-sm overflow-hidden p-6 md:p-8",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex items-center gap-4 mb-6",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "size-10 rounded-full bg-primary/20 flex items-center justify-center text-primary-dark dark:text-primary",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "material-symbols-outlined",
+                                        children: "layers"
+                                    }, void 0, false, {
+                                        fileName: "[project]/views/SettingsView.tsx",
+                                        lineNumber: 29,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/views/SettingsView.tsx",
+                                    lineNumber: 28,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                            className: "text-xl font-bold text-slate-900 dark:text-white",
+                                            children: "Visualization Depth"
+                                        }, void 0, false, {
+                                            fileName: "[project]/views/SettingsView.tsx",
+                                            lineNumber: 32,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-sm text-gray-500 dark:text-gray-400",
+                                            children: "Control how many generations are loaded by default."
+                                        }, void 0, false, {
+                                            fileName: "[project]/views/SettingsView.tsx",
+                                            lineNumber: 33,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/views/SettingsView.tsx",
+                                    lineNumber: 31,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/views/SettingsView.tsx",
+                            lineNumber: 27,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "relative flex w-full flex-col gap-6",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex w-full items-center justify-between",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-slate-900 dark:text-white text-lg font-bold",
+                                            children: "Level 3: Great-Grandparents"
+                                        }, void 0, false, {
+                                            fileName: "[project]/views/SettingsView.tsx",
+                                            lineNumber: 39,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "px-3 py-1 rounded-full bg-primary/20 text-xs font-bold text-primary-dark dark:text-primary uppercase tracking-wide",
+                                            children: "62 Profiles Visible"
+                                        }, void 0, false, {
+                                            fileName: "[project]/views/SettingsView.tsx",
+                                            lineNumber: 40,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/views/SettingsView.tsx",
+                                    lineNumber: 38,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "relative w-full h-12 flex items-center group",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "absolute w-full h-2 bg-gray-200 dark:bg-white/10 rounded-full overflow-hidden",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "h-full bg-primary w-[60%] rounded-full"
+                                            }, void 0, false, {
+                                                fileName: "[project]/views/SettingsView.tsx",
+                                                lineNumber: 45,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        }, void 0, false, {
+                                            fileName: "[project]/views/SettingsView.tsx",
+                                            lineNumber: 44,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                            type: "range",
+                                            min: "1",
+                                            max: "5",
+                                            defaultValue: "3",
+                                            className: "absolute w-full h-full opacity-0 cursor-pointer z-10"
+                                        }, void 0, false, {
+                                            fileName: "[project]/views/SettingsView.tsx",
+                                            lineNumber: 47,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "absolute w-full flex justify-between px-1 pointer-events-none",
+                                            children: [
+                                                1,
+                                                2,
+                                                3,
+                                                4,
+                                                5
+                                            ].map((i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: `size-4 rounded-full border-2 border-white dark:border-gray-800 transition-all ${i <= 3 ? 'bg-primary scale-110' : 'bg-gray-300 dark:bg-white/20'}`
+                                                }, i, false, {
+                                                    fileName: "[project]/views/SettingsView.tsx",
+                                                    lineNumber: 57,
+                                                    columnNumber: 37
+                                                }, ("TURBOPACK compile-time value", void 0)))
+                                        }, void 0, false, {
+                                            fileName: "[project]/views/SettingsView.tsx",
+                                            lineNumber: 55,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/views/SettingsView.tsx",
+                                    lineNumber: 43,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/views/SettingsView.tsx",
+                            lineNumber: 37,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/views/SettingsView.tsx",
+                    lineNumber: 26,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "grid grid-cols-1 md:grid-cols-2 gap-8",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                            className: "rounded-2xl bg-white/70 dark:bg-card-dark backdrop-blur-md border border-white/60 dark:border-white/5 shadow-sm p-6 md:p-8 flex flex-col h-full",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex items-center gap-4 mb-6",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "size-10 rounded-full bg-primary/20 flex items-center justify-center text-primary-dark dark:text-primary",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "material-symbols-outlined",
+                                                children: "account_tree"
+                                            }, void 0, false, {
+                                                fileName: "[project]/views/SettingsView.tsx",
+                                                lineNumber: 69,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        }, void 0, false, {
+                                            fileName: "[project]/views/SettingsView.tsx",
+                                            lineNumber: 68,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                                    className: "text-xl font-bold text-slate-900 dark:text-white",
+                                                    children: "Branch Filters"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/views/SettingsView.tsx",
+                                                    lineNumber: 72,
+                                                    columnNumber: 33
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-sm text-gray-500 dark:text-gray-400",
+                                                    children: "Toggle visibility of specific family lines."
+                                                }, void 0, false, {
+                                                    fileName: "[project]/views/SettingsView.tsx",
+                                                    lineNumber: 73,
+                                                    columnNumber: 33
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/views/SettingsView.tsx",
+                                            lineNumber: 71,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/views/SettingsView.tsx",
+                                    lineNumber: 67,
+                                    columnNumber: 26
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex flex-col gap-6",
+                                    children: [
+                                        {
+                                            title: 'Paternal Side',
+                                            sub: "Father's ancestors",
+                                            active: true
+                                        },
+                                        {
+                                            title: 'Maternal Side',
+                                            sub: "Mother's ancestors",
+                                            active: true
+                                        },
+                                        {
+                                            title: 'In-Laws & Step-Family',
+                                            sub: "Connected by marriage",
+                                            active: false
+                                        }
+                                    ].map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "flex items-center justify-between cursor-pointer",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "flex flex-col",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "text-base font-semibold text-slate-900 dark:text-white",
+                                                            children: item.title
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/views/SettingsView.tsx",
+                                                            lineNumber: 84,
+                                                            columnNumber: 41
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "text-xs text-gray-500 dark:text-gray-400",
+                                                            children: item.sub
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/views/SettingsView.tsx",
+                                                            lineNumber: 85,
+                                                            columnNumber: 41
+                                                        }, ("TURBOPACK compile-time value", void 0))
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/views/SettingsView.tsx",
+                                                    lineNumber: 83,
+                                                    columnNumber: 37
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: `relative inline-flex h-7 w-12 items-center rounded-full transition-colors duration-200 ${item.active ? 'bg-primary' : 'bg-gray-300 dark:bg-white/20'}`,
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: `inline-block size-5 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out ${item.active ? 'translate-x-6' : 'translate-x-1'}`
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/views/SettingsView.tsx",
+                                                        lineNumber: 88,
+                                                        columnNumber: 41
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                }, void 0, false, {
+                                                    fileName: "[project]/views/SettingsView.tsx",
+                                                    lineNumber: 87,
+                                                    columnNumber: 37
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            ]
+                                        }, i, true, {
+                                            fileName: "[project]/views/SettingsView.tsx",
+                                            lineNumber: 82,
+                                            columnNumber: 33
+                                        }, ("TURBOPACK compile-time value", void 0)))
+                                }, void 0, false, {
+                                    fileName: "[project]/views/SettingsView.tsx",
+                                    lineNumber: 76,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/views/SettingsView.tsx",
+                            lineNumber: 66,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                            className: "rounded-2xl bg-white/70 dark:bg-card-dark backdrop-blur-md border border-white/60 dark:border-white/5 shadow-sm p-6 md:p-8 flex flex-col h-full",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex items-center gap-4 mb-6",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "size-10 rounded-full bg-primary/20 flex items-center justify-center text-primary-dark dark:text-primary",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "material-symbols-outlined",
+                                                children: "lock"
+                                            }, void 0, false, {
+                                                fileName: "[project]/views/SettingsView.tsx",
+                                                lineNumber: 99,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        }, void 0, false, {
+                                            fileName: "[project]/views/SettingsView.tsx",
+                                            lineNumber: 98,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                                    className: "text-xl font-bold text-slate-900 dark:text-white",
+                                                    children: "Privacy Level"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/views/SettingsView.tsx",
+                                                    lineNumber: 102,
+                                                    columnNumber: 33
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-sm text-gray-500 dark:text-gray-400",
+                                                    children: "Who can view your living relatives?"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/views/SettingsView.tsx",
+                                                    lineNumber: 103,
+                                                    columnNumber: 33
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/views/SettingsView.tsx",
+                                            lineNumber: 101,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/views/SettingsView.tsx",
+                                    lineNumber: 97,
+                                    columnNumber: 26
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex flex-col gap-4",
+                                    children: [
+                                        {
+                                            title: 'Public',
+                                            sub: 'Visible to all users',
+                                            checked: false
+                                        },
+                                        {
+                                            title: 'Family Members Only',
+                                            sub: 'Only invited members',
+                                            checked: true
+                                        },
+                                        {
+                                            title: 'Private',
+                                            sub: 'Only you',
+                                            checked: false
+                                        }
+                                    ].map((opt, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                            className: `flex items-start gap-3 p-3 rounded-xl border cursor-pointer transition-colors ${opt.checked ? 'border-primary/50 bg-primary/10' : 'border-transparent hover:bg-black/5 dark:hover:bg-white/5'}`,
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                    type: "radio",
+                                                    name: "privacy",
+                                                    defaultChecked: opt.checked,
+                                                    className: "mt-1 text-primary focus:ring-primary bg-transparent"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/views/SettingsView.tsx",
+                                                    lineNumber: 113,
+                                                    columnNumber: 37
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "flex flex-col",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "text-sm font-bold text-slate-900 dark:text-white",
+                                                            children: opt.title
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/views/SettingsView.tsx",
+                                                            lineNumber: 115,
+                                                            columnNumber: 41
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "text-xs text-gray-500 dark:text-gray-400",
+                                                            children: opt.sub
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/views/SettingsView.tsx",
+                                                            lineNumber: 116,
+                                                            columnNumber: 41
+                                                        }, ("TURBOPACK compile-time value", void 0))
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/views/SettingsView.tsx",
+                                                    lineNumber: 114,
+                                                    columnNumber: 37
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            ]
+                                        }, i, true, {
+                                            fileName: "[project]/views/SettingsView.tsx",
+                                            lineNumber: 112,
+                                            columnNumber: 33
+                                        }, ("TURBOPACK compile-time value", void 0)))
+                                }, void 0, false, {
+                                    fileName: "[project]/views/SettingsView.tsx",
+                                    lineNumber: 106,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/views/SettingsView.tsx",
+                            lineNumber: 96,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/views/SettingsView.tsx",
+                    lineNumber: 64,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                    className: "rounded-2xl bg-gradient-to-r from-gray-900 to-gray-800 dark:from-black dark:to-[#1a1a1a] p-8 text-white flex flex-col md:flex-row items-center justify-between gap-6 shadow-lg",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex flex-col gap-2",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    className: "text-xl font-bold",
+                                    children: "Need more control?"
+                                }, void 0, false, {
+                                    fileName: "[project]/views/SettingsView.tsx",
+                                    lineNumber: 126,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-white/70 max-w-lg text-sm",
+                                    children: "Our Advanced Privacy Shield offers granular control over every single profile in your tree."
+                                }, void 0, false, {
+                                    fileName: "[project]/views/SettingsView.tsx",
+                                    lineNumber: 127,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/views/SettingsView.tsx",
+                            lineNumber: 125,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            className: "whitespace-nowrap px-6 py-3 bg-white/10 hover:bg-white/20 border border-white/20 rounded-lg font-bold text-sm transition-all flex items-center gap-2",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "material-symbols-outlined text-[18px]",
+                                    children: "verified_user"
+                                }, void 0, false, {
+                                    fileName: "[project]/views/SettingsView.tsx",
+                                    lineNumber: 130,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                "View Advanced Options"
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/views/SettingsView.tsx",
+                            lineNumber: 129,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/views/SettingsView.tsx",
+                    lineNumber: 124,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0))
+            ]
+        }, void 0, true, {
+            fileName: "[project]/views/SettingsView.tsx",
+            lineNumber: 6,
+            columnNumber: 13
+        }, ("TURBOPACK compile-time value", void 0))
+    }, void 0, false, {
+        fileName: "[project]/views/SettingsView.tsx",
+        lineNumber: 5,
+        columnNumber: 9
+    }, ("TURBOPACK compile-time value", void 0));
+};
+const __TURBOPACK__default__export__ = SettingsView;
+}),
+"[project]/services/familyService.ts [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "getImmediateFamily",
+    ()=>getImmediateFamily
+]);
+const getImmediateFamily = (memberId, members, connections)=>{
+    const family = [];
+    connections.forEach((conn)=>{
+        if (conn.sourceId === memberId) {
+            const target = members.find((m)=>m.id === conn.targetId);
+            if (target) family.push({
+                relation: conn.label,
+                member: target
+            });
+        } else if (conn.targetId === memberId) {
+            const source = members.find((m)=>m.id === conn.sourceId);
+            if (source) family.push({
+                relation: "Linked by " + conn.label,
+                member: source
+            });
+        }
+    });
+    return family;
+};
+}),
+"[project]/components/ProfileSidebar.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$familyService$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/services/familyService.ts [app-ssr] (ecmascript)");
+;
+;
+const ProfileSidebar = ({ member, onClose, onSelectMember, showChinese, onEdit, onDelete, members, connections })=>{
+    if (!member) return null;
+    // Now uses passed props instead of synchronous DB access
+    const relatives = (0, __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$familyService$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getImmediateFamily"])(member.id, members, connections);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
+        className: "absolute top-24 right-6 bottom-32 w-80 md:w-96 bg-white/80 dark:bg-black/80 backdrop-blur-xl border border-white/40 dark:border-white/10 rounded-2xl shadow-2xl p-6 z-30 flex flex-col animate-[slideIn_0.3s_ease-out]",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("style", {
+                children: `
+                @keyframes slideIn {
+                    from { transform: translateX(100%); opacity: 0; }
+                    to { transform: translateX(0); opacity: 1; }
+                }
+            `
+            }, void 0, false, {
+                fileName: "[project]/components/ProfileSidebar.tsx",
+                lineNumber: 33,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex items-center justify-between mb-6",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "text-lg font-bold text-slate-900 dark:text-white",
+                        children: "Profile Details"
+                    }, void 0, false, {
+                        fileName: "[project]/components/ProfileSidebar.tsx",
+                        lineNumber: 41,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        onClick: onClose,
+                        className: "p-1.5 hover:bg-black/5 dark:hover:bg-white/10 rounded-lg transition-colors",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            className: "material-symbols-outlined text-gray-500 text-[20px]",
+                            children: "close"
+                        }, void 0, false, {
+                            fileName: "[project]/components/ProfileSidebar.tsx",
+                            lineNumber: 43,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
+                    }, void 0, false, {
+                        fileName: "[project]/components/ProfileSidebar.tsx",
+                        lineNumber: 42,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0))
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/ProfileSidebar.tsx",
+                lineNumber: 40,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex flex-col items-center mb-6",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "w-24 h-24 rounded-full p-1 border-2 border-primary border-dashed mb-3 relative group",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "w-full h-full rounded-full bg-cover bg-center",
+                                style: {
+                                    backgroundImage: `url('${member.avatar}')`
+                                }
+                            }, void 0, false, {
+                                fileName: "[project]/components/ProfileSidebar.tsx",
+                                lineNumber: 50,
+                                columnNumber: 21
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                onClick: onEdit,
+                                className: "absolute bottom-0 right-0 p-1.5 bg-primary rounded-full text-slate-900 shadow-sm hover:scale-110 transition-transform cursor-pointer",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "material-symbols-outlined text-[16px]",
+                                    children: "edit"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/ProfileSidebar.tsx",
+                                    lineNumber: 55,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            }, void 0, false, {
+                                fileName: "[project]/components/ProfileSidebar.tsx",
+                                lineNumber: 51,
+                                columnNumber: 21
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/ProfileSidebar.tsx",
+                        lineNumber: 49,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                        className: "text-xl font-bold text-slate-900 dark:text-white",
+                        children: showChinese && member.nameZh ? member.nameZh : member.name
+                    }, void 0, false, {
+                        fileName: "[project]/components/ProfileSidebar.tsx",
+                        lineNumber: 58,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-sm text-gray-500 dark:text-gray-400",
+                        children: member.role
+                    }, void 0, false, {
+                        fileName: "[project]/components/ProfileSidebar.tsx",
+                        lineNumber: 61,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    member.isSelf && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        className: "mt-2 inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-primary/20 text-primary-dark dark:text-primary",
+                        children: "Center Member (Me)"
+                    }, void 0, false, {
+                        fileName: "[project]/components/ProfileSidebar.tsx",
+                        lineNumber: 63,
+                        columnNumber: 22
+                    }, ("TURBOPACK compile-time value", void 0))
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/ProfileSidebar.tsx",
+                lineNumber: 48,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "space-y-4 flex-1 overflow-y-auto no-scrollbar pr-1",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "grid grid-cols-2 gap-3",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "bg-white/50 dark:bg-white/5 p-3 rounded-xl border border-white/40 dark:border-white/5",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-xs text-gray-500 dark:text-gray-400 mb-1",
+                                        children: "Birth Date"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/ProfileSidebar.tsx",
+                                        lineNumber: 73,
+                                        columnNumber: 25
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "font-semibold text-sm",
+                                        children: member.birthDate
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/ProfileSidebar.tsx",
+                                        lineNumber: 74,
+                                        columnNumber: 25
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/ProfileSidebar.tsx",
+                                lineNumber: 72,
+                                columnNumber: 21
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "bg-white/50 dark:bg-white/5 p-3 rounded-xl border border-white/40 dark:border-white/5",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-xs text-gray-500 dark:text-gray-400 mb-1",
+                                        children: "Location"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/ProfileSidebar.tsx",
+                                        lineNumber: 77,
+                                        columnNumber: 25
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "font-semibold text-sm",
+                                        children: member.location
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/ProfileSidebar.tsx",
+                                        lineNumber: 78,
+                                        columnNumber: 25
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/ProfileSidebar.tsx",
+                                lineNumber: 76,
+                                columnNumber: 21
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/ProfileSidebar.tsx",
+                        lineNumber: 71,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "bg-white/50 dark:bg-white/5 p-4 rounded-xl border border-white/40 dark:border-white/5",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-xs text-gray-500 dark:text-gray-400 mb-2",
+                                children: "Biography"
+                            }, void 0, false, {
+                                fileName: "[project]/components/ProfileSidebar.tsx",
+                                lineNumber: 83,
+                                columnNumber: 21
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-sm text-gray-700 dark:text-gray-300 leading-relaxed",
+                                children: member.bio || "No biography added."
+                            }, void 0, false, {
+                                fileName: "[project]/components/ProfileSidebar.tsx",
+                                lineNumber: 84,
+                                columnNumber: 21
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/ProfileSidebar.tsx",
+                        lineNumber: 82,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "pt-4",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                className: "text-sm font-bold text-slate-900 dark:text-white mb-3 flex items-center gap-2",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "material-symbols-outlined text-primary text-[18px]",
+                                        children: "family_star"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/ProfileSidebar.tsx",
+                                        lineNumber: 91,
+                                        columnNumber: 25
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    "Immediate Family"
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/ProfileSidebar.tsx",
+                                lineNumber: 90,
+                                columnNumber: 21
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "space-y-2",
+                                children: [
+                                    relatives.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-xs text-gray-500",
+                                        children: "No connections found."
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/ProfileSidebar.tsx",
+                                        lineNumber: 95,
+                                        columnNumber: 52
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    relatives.map((rel)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            onClick: ()=>onSelectMember(rel.member.id),
+                                            className: "flex items-center gap-3 p-2 hover:bg-black/5 dark:hover:bg-white/5 rounded-lg transition-colors cursor-pointer group",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "w-8 h-8 rounded-full bg-cover bg-center",
+                                                    style: {
+                                                        backgroundImage: `url('${rel.member.avatar}')`
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/ProfileSidebar.tsx",
+                                                    lineNumber: 102,
+                                                    columnNumber: 33
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "flex-1",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "text-sm font-semibold group-hover:text-primary transition-colors",
+                                                            children: showChinese && rel.member.nameZh ? rel.member.nameZh : rel.member.name
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/ProfileSidebar.tsx",
+                                                            lineNumber: 104,
+                                                            columnNumber: 37
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "text-xs text-gray-500",
+                                                            children: rel.relation
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/ProfileSidebar.tsx",
+                                                            lineNumber: 107,
+                                                            columnNumber: 37
+                                                        }, ("TURBOPACK compile-time value", void 0))
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/ProfileSidebar.tsx",
+                                                    lineNumber: 103,
+                                                    columnNumber: 33
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: "material-symbols-outlined text-gray-400 text-[18px]",
+                                                    children: "chevron_right"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/ProfileSidebar.tsx",
+                                                    lineNumber: 109,
+                                                    columnNumber: 33
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            ]
+                                        }, rel.member.id, true, {
+                                            fileName: "[project]/components/ProfileSidebar.tsx",
+                                            lineNumber: 97,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/ProfileSidebar.tsx",
+                                lineNumber: 94,
+                                columnNumber: 21
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/ProfileSidebar.tsx",
+                        lineNumber: 89,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0))
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/ProfileSidebar.tsx",
+                lineNumber: 70,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "mt-4 pt-4 border-t border-gray-200 dark:border-gray-700 flex gap-2",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        onClick: onEdit,
+                        className: "flex-1 bg-slate-900 hover:bg-gray-800 text-white dark:bg-white dark:text-black dark:hover:bg-gray-200 py-2.5 rounded-xl text-sm font-bold transition-colors shadow-lg",
+                        children: "Edit Profile"
+                    }, void 0, false, {
+                        fileName: "[project]/components/ProfileSidebar.tsx",
+                        lineNumber: 118,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        onClick: onDelete,
+                        className: "w-10 flex items-center justify-center bg-red-50 hover:bg-red-100 text-red-500 rounded-xl transition-colors",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            className: "material-symbols-outlined text-[20px]",
+                            children: "delete"
+                        }, void 0, false, {
+                            fileName: "[project]/components/ProfileSidebar.tsx",
+                            lineNumber: 128,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
+                    }, void 0, false, {
+                        fileName: "[project]/components/ProfileSidebar.tsx",
+                        lineNumber: 124,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0))
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/ProfileSidebar.tsx",
+                lineNumber: 117,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0))
+        ]
+    }, void 0, true, {
+        fileName: "[project]/components/ProfileSidebar.tsx",
+        lineNumber: 32,
+        columnNumber: 9
+    }, ("TURBOPACK compile-time value", void 0));
+};
+const __TURBOPACK__default__export__ = ProfileSidebar;
+}),
+"[project]/components/Timeline.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+;
+;
+const Timeline = ()=>{
+    const [year, setYear] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(2024);
+    const [isExpanded, setIsExpanded] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(true);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: `absolute bottom-0 left-0 right-0 z-40 transition-transform duration-300 ease-in-out ${isExpanded ? 'translate-y-0' : 'translate-y-full'}`,
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                onClick: ()=>setIsExpanded(!isExpanded),
+                className: "absolute -top-10 left-6 h-10 px-4 bg-white/90 dark:bg-black/90 backdrop-blur-md rounded-t-xl border-t border-x border-white/40 dark:border-white/10 shadow-[0_-4px_10px_rgba(0,0,0,0.05)] flex items-center gap-2 text-xs font-bold text-gray-600 dark:text-gray-300 hover:text-primary transition-colors z-50 group",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        className: `material-symbols-outlined text-[18px] transition-transform duration-300 ${isExpanded ? 'rotate-180' : 'rotate-0'}`,
+                        children: "expand_less"
+                    }, void 0, false, {
+                        fileName: "[project]/components/Timeline.tsx",
+                        lineNumber: 16,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        children: isExpanded ? 'Hide Timeline' : 'Timeline'
+                    }, void 0, false, {
+                        fileName: "[project]/components/Timeline.tsx",
+                        lineNumber: 17,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0))
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/Timeline.tsx",
+                lineNumber: 12,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "bg-white/80 dark:bg-black/80 backdrop-blur-xl border-t border-white/40 dark:border-white/10 px-6 md:px-8 py-6 shadow-[0_-4px_30px_rgba(0,0,0,0.03)] h-full",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "max-w-7xl mx-auto w-full flex flex-col gap-4",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex items-center justify-between",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex items-center gap-2",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "material-symbols-outlined text-primary text-xl",
+                                            children: "history_toggle_off"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Timeline.tsx",
+                                            lineNumber: 25,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "text-sm font-bold text-gray-700 dark:text-gray-200",
+                                            children: "Timeline scrubbing"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Timeline.tsx",
+                                            lineNumber: 26,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/Timeline.tsx",
+                                    lineNumber: 24,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "px-3 py-1 bg-primary/20 text-primary-dark dark:text-primary rounded-lg text-sm font-bold font-mono",
+                                    children: year
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Timeline.tsx",
+                                    lineNumber: 28,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/Timeline.tsx",
+                            lineNumber: 23,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "relative w-full h-10 flex items-center group",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "absolute w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "h-full bg-gradient-to-r from-primary/30 via-primary/80 to-primary origin-left",
+                                        style: {
+                                            width: `${(year - 1900) / (2024 - 1900) * 100}%`
+                                        }
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Timeline.tsx",
+                                        lineNumber: 37,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Timeline.tsx",
+                                    lineNumber: 35,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                    type: "range",
+                                    min: "1900",
+                                    max: "2024",
+                                    value: year,
+                                    onChange: (e)=>setYear(parseInt(e.target.value)),
+                                    className: "absolute w-full h-full opacity-0 cursor-ew-resize z-20"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Timeline.tsx",
+                                    lineNumber: 44,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "absolute top-1/2 -translate-y-1/2 w-8 h-8 -ml-4 bg-white dark:bg-gray-800 border-4 border-primary rounded-full shadow-[0_0_15px_rgba(128,236,19,0.5)] pointer-events-none z-10 transition-transform group-hover:scale-110",
+                                    style: {
+                                        left: `${(year - 1900) / (2024 - 1900) * 100}%`
+                                    },
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "w-2 h-2 bg-primary rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Timeline.tsx",
+                                        lineNumber: 58,
+                                        columnNumber: 30
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Timeline.tsx",
+                                    lineNumber: 54,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/Timeline.tsx",
+                            lineNumber: 33,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex justify-between text-xs font-semibold text-gray-400 select-none px-1 tracking-wider uppercase",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    children: "1900"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Timeline.tsx",
+                                    lineNumber: 63,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    children: "1920"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Timeline.tsx",
+                                    lineNumber: 64,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    children: "1940"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Timeline.tsx",
+                                    lineNumber: 65,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    children: "1960"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Timeline.tsx",
+                                    lineNumber: 66,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    children: "1980"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Timeline.tsx",
+                                    lineNumber: 67,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    children: "2000"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Timeline.tsx",
+                                    lineNumber: 68,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    children: "2020"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Timeline.tsx",
+                                    lineNumber: 69,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    children: "2024"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Timeline.tsx",
+                                    lineNumber: 70,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/Timeline.tsx",
+                            lineNumber: 62,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/Timeline.tsx",
+                    lineNumber: 22,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0))
+            }, void 0, false, {
+                fileName: "[project]/components/Timeline.tsx",
+                lineNumber: 21,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0))
+        ]
+    }, void 0, true, {
+        fileName: "[project]/components/Timeline.tsx",
+        lineNumber: 8,
+        columnNumber: 9
+    }, ("TURBOPACK compile-time value", void 0));
+};
+const __TURBOPACK__default__export__ = Timeline;
+}),
+"[project]/components/EditMemberModal.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$locales$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/locales.ts [app-ssr] (ecmascript)");
+;
+;
+;
+const EditMemberModal = ({ isOpen, onClose, onSave, member, lang })=>{
+    const t = __TURBOPACK__imported__module__$5b$project$5d2f$locales$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["translations"][lang];
+    const [formData, setFormData] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])({});
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        if (isOpen) {
+            setFormData(member ? {
+                ...member
+            } : {
+                id: crypto.randomUUID(),
+                name: '',
+                nameZh: '',
+                role: '',
+                gender: 'male',
+                avatar: `https://picsum.photos/seed/${Date.now()}/200/200`,
+                x: 0,
+                y: 0,
+                isSelf: false
+            });
+        }
+    }, [
+        isOpen,
+        member
+    ]);
+    if (!isOpen) return null;
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "fixed inset-0 z-[60] flex items-center justify-center bg-black/50 backdrop-blur-sm p-4",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "bg-white dark:bg-gray-800 rounded-2xl w-full max-w-md shadow-2xl overflow-hidden border border-gray-100 dark:border-gray-700 animate-[fadeIn_0.2s_ease-out]",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "px-6 py-4 border-b border-gray-100 dark:border-gray-700 bg-gray-50/50 dark:bg-gray-800/50 flex justify-between items-center",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                            className: "font-bold text-lg text-slate-900 dark:text-white",
+                            children: member ? t.edit : t.addMember
+                        }, void 0, false, {
+                            fileName: "[project]/components/EditMemberModal.tsx",
+                            lineNumber: 39,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: onClose,
+                            className: "text-gray-400 hover:text-gray-600 dark:hover:text-gray-200",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "material-symbols-outlined",
+                                children: "close"
+                            }, void 0, false, {
+                                fileName: "[project]/components/EditMemberModal.tsx",
+                                lineNumber: 43,
+                                columnNumber: 25
+                            }, ("TURBOPACK compile-time value", void 0))
+                        }, void 0, false, {
+                            fileName: "[project]/components/EditMemberModal.tsx",
+                            lineNumber: 42,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/EditMemberModal.tsx",
+                    lineNumber: 38,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "p-6 space-y-4 max-h-[70vh] overflow-y-auto",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "grid grid-cols-2 gap-4",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "space-y-1",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                            className: "text-xs font-bold text-gray-500 uppercase",
+                                            children: t.name
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/EditMemberModal.tsx",
+                                            lineNumber: 50,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                            className: "w-full px-3 py-2 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-primary focus:outline-none",
+                                            value: formData.name || '',
+                                            onChange: (e)=>setFormData({
+                                                    ...formData,
+                                                    name: e.target.value
+                                                })
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/EditMemberModal.tsx",
+                                            lineNumber: 51,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/EditMemberModal.tsx",
+                                    lineNumber: 49,
+                                    columnNumber: 26
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "space-y-1",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                            className: "text-xs font-bold text-gray-500 uppercase",
+                                            children: t.nameZh
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/EditMemberModal.tsx",
+                                            lineNumber: 58,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                            className: "w-full px-3 py-2 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-primary focus:outline-none",
+                                            value: formData.nameZh || '',
+                                            onChange: (e)=>setFormData({
+                                                    ...formData,
+                                                    nameZh: e.target.value
+                                                })
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/EditMemberModal.tsx",
+                                            lineNumber: 59,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/EditMemberModal.tsx",
+                                    lineNumber: 57,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/EditMemberModal.tsx",
+                            lineNumber: 48,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "space-y-1",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                    className: "text-xs font-bold text-gray-500 uppercase",
+                                    children: t.role
+                                }, void 0, false, {
+                                    fileName: "[project]/components/EditMemberModal.tsx",
+                                    lineNumber: 68,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                    className: "w-full px-3 py-2 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-primary focus:outline-none",
+                                    value: formData.role || '',
+                                    onChange: (e)=>setFormData({
+                                            ...formData,
+                                            role: e.target.value
+                                        })
+                                }, void 0, false, {
+                                    fileName: "[project]/components/EditMemberModal.tsx",
+                                    lineNumber: 69,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/EditMemberModal.tsx",
+                            lineNumber: 67,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "grid grid-cols-2 gap-4",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "space-y-1",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                            className: "text-xs font-bold text-gray-500 uppercase",
+                                            children: t.birthDate
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/EditMemberModal.tsx",
+                                            lineNumber: 78,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                            className: "w-full px-3 py-2 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-primary focus:outline-none",
+                                            value: formData.birthDate || '',
+                                            placeholder: "YYYY",
+                                            onChange: (e)=>setFormData({
+                                                    ...formData,
+                                                    birthDate: e.target.value
+                                                })
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/EditMemberModal.tsx",
+                                            lineNumber: 79,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/EditMemberModal.tsx",
+                                    lineNumber: 77,
+                                    columnNumber: 26
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "space-y-1",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                            className: "text-xs font-bold text-gray-500 uppercase",
+                                            children: t.location
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/EditMemberModal.tsx",
+                                            lineNumber: 87,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                            className: "w-full px-3 py-2 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-primary focus:outline-none",
+                                            value: formData.location || '',
+                                            onChange: (e)=>setFormData({
+                                                    ...formData,
+                                                    location: e.target.value
+                                                })
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/EditMemberModal.tsx",
+                                            lineNumber: 88,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/EditMemberModal.tsx",
+                                    lineNumber: 86,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/EditMemberModal.tsx",
+                            lineNumber: 76,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex items-center gap-4",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                    className: "flex items-center gap-2 cursor-pointer",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                            type: "radio",
+                                            name: "gender",
+                                            checked: formData.gender === 'male',
+                                            onChange: ()=>setFormData({
+                                                    ...formData,
+                                                    gender: 'male'
+                                                }),
+                                            className: "text-primary focus:ring-primary"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/EditMemberModal.tsx",
+                                            lineNumber: 98,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "text-sm",
+                                            children: t.male
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/EditMemberModal.tsx",
+                                            lineNumber: 105,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/EditMemberModal.tsx",
+                                    lineNumber: 97,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                    className: "flex items-center gap-2 cursor-pointer",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                            type: "radio",
+                                            name: "gender",
+                                            checked: formData.gender === 'female',
+                                            onChange: ()=>setFormData({
+                                                    ...formData,
+                                                    gender: 'female'
+                                                }),
+                                            className: "text-primary focus:ring-primary"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/EditMemberModal.tsx",
+                                            lineNumber: 108,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "text-sm",
+                                            children: t.female
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/EditMemberModal.tsx",
+                                            lineNumber: 115,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/EditMemberModal.tsx",
+                                    lineNumber: 107,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/EditMemberModal.tsx",
+                            lineNumber: 96,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "pt-2",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                className: "flex items-center gap-3 p-3 border border-primary/30 bg-primary/5 rounded-xl cursor-pointer hover:bg-primary/10 transition-colors",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                        type: "checkbox",
+                                        checked: formData.isSelf || false,
+                                        onChange: (e)=>setFormData({
+                                                ...formData,
+                                                isSelf: e.target.checked
+                                            }),
+                                        className: "w-5 h-5 text-primary rounded focus:ring-primary border-gray-300"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/EditMemberModal.tsx",
+                                        lineNumber: 121,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "block font-bold text-slate-900 dark:text-white",
+                                                children: t.setAsSelf
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/EditMemberModal.tsx",
+                                                lineNumber: 128,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "block text-xs text-gray-500",
+                                                children: "This will center the map on this person initially"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/EditMemberModal.tsx",
+                                                lineNumber: 129,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/EditMemberModal.tsx",
+                                        lineNumber: 127,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/EditMemberModal.tsx",
+                                lineNumber: 120,
+                                columnNumber: 25
+                            }, ("TURBOPACK compile-time value", void 0))
+                        }, void 0, false, {
+                            fileName: "[project]/components/EditMemberModal.tsx",
+                            lineNumber: 119,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/EditMemberModal.tsx",
+                    lineNumber: 47,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "p-6 pt-2 flex gap-3",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: onClose,
+                            className: "flex-1 py-2.5 rounded-xl font-bold text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors",
+                            children: t.cancel
+                        }, void 0, false, {
+                            fileName: "[project]/components/EditMemberModal.tsx",
+                            lineNumber: 136,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: ()=>onSave(formData),
+                            className: "flex-1 py-2.5 bg-primary hover:bg-primary-dark text-slate-900 rounded-xl font-bold transition-colors shadow-lg shadow-primary/20",
+                            children: t.save
+                        }, void 0, false, {
+                            fileName: "[project]/components/EditMemberModal.tsx",
+                            lineNumber: 139,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/EditMemberModal.tsx",
+                    lineNumber: 135,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0))
+            ]
+        }, void 0, true, {
+            fileName: "[project]/components/EditMemberModal.tsx",
+            lineNumber: 37,
+            columnNumber: 13
+        }, ("TURBOPACK compile-time value", void 0))
+    }, void 0, false, {
+        fileName: "[project]/components/EditMemberModal.tsx",
+        lineNumber: 36,
+        columnNumber: 9
+    }, ("TURBOPACK compile-time value", void 0));
+};
+const __TURBOPACK__default__export__ = EditMemberModal;
+}),
+"[project]/App.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$dbService$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/services/dbService.ts [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Navbar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/Navbar.tsx [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$views$2f$TreeView$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/views/TreeView.tsx [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$views$2f$DirectoryView$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/views/DirectoryView.tsx [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$views$2f$SettingsView$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/views/SettingsView.tsx [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ProfileSidebar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ProfileSidebar.tsx [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Timeline$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/Timeline.tsx [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$EditMemberModal$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/EditMemberModal.tsx [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const App = ()=>{
+    const [currentView, setView] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('tree');
+    const [selectedMemberId, setSelectedMemberId] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
+    const [showChineseNames, setShowChineseNames] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    // Global Data State
+    const [members, setMembers] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])([]);
+    const [connections, setConnections] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])([]);
+    const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(true);
+    // Modal State
+    const [isMemberModalOpen, setIsMemberModalOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [editingMember, setEditingMember] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
+    // Load Data on Mount
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        refreshData();
+    }, []);
+    const refreshData = async ()=>{
+        // Parallel fetch for speed
+        const [fetchedMembers, fetchedConnections] = await Promise.all([
+            __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$dbService$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["dbService"].getMembers(),
+            __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$dbService$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["dbService"].getConnections()
+        ]);
+        setMembers(fetchedMembers);
+        setConnections(fetchedConnections);
+        setLoading(false);
+    };
+    const handleSelectMember = (id)=>{
+        setSelectedMemberId(id);
+    };
+    // --- CRUD Operations ---
+    const handleSaveMember = async (member)=>{
+        // Optimistic UI Update (optional, but good for UX)
+        // For now, we rely on refreshData to keep it simple and consistent with DB
+        if (member.isSelf) {
+        // DB handles the logic of unsetting others via server action, 
+        // but we can update local state to reflect it if we wanted to avoid a refresh.
+        }
+        const existing = members.find((m)=>m.id === member.id);
+        if (existing) {
+            await __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$dbService$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["dbService"].updateMember(member);
+        } else {
+            await __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$dbService$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["dbService"].addMember(member);
+        }
+        setIsMemberModalOpen(false);
+        setEditingMember(null);
+        await refreshData();
+    };
+    const handleDeleteMember = async (id)=>{
+        if (window.confirm("Are you sure you want to delete this member? This will also remove connected lines.")) {
+            await __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$dbService$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["dbService"].deleteMember(id);
+            if (selectedMemberId === id) setSelectedMemberId(null);
+            await refreshData();
+        }
+    };
+    const handleEditMemberRequest = (member)=>{
+        setEditingMember(member);
+        setIsMemberModalOpen(true);
+    };
+    const handleDataChange = async ()=>{
+        // This is triggered by TreeView drag/drop and connection changes
+        // We re-fetch to ensure sync with DB
+        // For performance in a real app, we might use React Query or SWR
+        await refreshData();
+    };
+    if (loading) {
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex h-screen items-center justify-center bg-background-light dark:bg-background-dark text-primary",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: "material-symbols-outlined text-4xl animate-spin",
+                children: "autorenew"
+            }, void 0, false, {
+                fileName: "[project]/App.tsx",
+                lineNumber: 95,
+                columnNumber: 17
+            }, ("TURBOPACK compile-time value", void 0))
+        }, void 0, false, {
+            fileName: "[project]/App.tsx",
+            lineNumber: 94,
+            columnNumber: 13
+        }, ("TURBOPACK compile-time value", void 0));
+    }
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "flex flex-col h-screen w-full relative",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Navbar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                currentView: currentView,
+                setView: setView,
+                showChinese: showChineseNames,
+                setShowChinese: setShowChineseNames
+            }, void 0, false, {
+                fileName: "[project]/App.tsx",
+                lineNumber: 102,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+                className: "flex-1 relative flex flex-col h-full overflow-hidden",
+                children: [
+                    currentView === 'tree' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$views$2f$TreeView$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                        selectedId: selectedMemberId,
+                        onSelect: handleSelectMember,
+                        showChinese: showChineseNames,
+                        members: members,
+                        connections: connections,
+                        onDataChange: handleDataChange,
+                        onEditMember: handleEditMemberRequest
+                    }, void 0, false, {
+                        fileName: "[project]/App.tsx",
+                        lineNumber: 111,
+                        columnNumber: 21
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    currentView === 'directory' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$views$2f$DirectoryView$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                        onSelect: handleSelectMember,
+                        showChinese: showChineseNames,
+                        members: members
+                    }, void 0, false, {
+                        fileName: "[project]/App.tsx",
+                        lineNumber: 123,
+                        columnNumber: 21
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    currentView === 'settings' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$views$2f$SettingsView$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                        fileName: "[project]/App.tsx",
+                        lineNumber: 131,
+                        columnNumber: 21
+                    }, ("TURBOPACK compile-time value", void 0))
+                ]
+            }, void 0, true, {
+                fileName: "[project]/App.tsx",
+                lineNumber: 109,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0)),
+            selectedMemberId && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ProfileSidebar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                member: members.find((m)=>m.id === selectedMemberId) || null,
+                onClose: ()=>setSelectedMemberId(null),
+                onSelectMember: handleSelectMember,
+                showChinese: showChineseNames,
+                onEdit: ()=>{
+                    const m = members.find((x)=>x.id === selectedMemberId);
+                    if (m) handleEditMemberRequest(m);
+                },
+                onDelete: ()=>handleDeleteMember(selectedMemberId),
+                // Pass full data sets to sidebar for relationship calculation
+                members: members,
+                connections: connections
+            }, void 0, false, {
+                fileName: "[project]/App.tsx",
+                lineNumber: 137,
+                columnNumber: 17
+            }, ("TURBOPACK compile-time value", void 0)),
+            currentView === 'tree' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Timeline$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/App.tsx",
+                lineNumber: 153,
+                columnNumber: 40
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$EditMemberModal$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                isOpen: isMemberModalOpen,
+                onClose: ()=>setIsMemberModalOpen(false),
+                onSave: handleSaveMember,
+                member: editingMember,
+                lang: showChineseNames ? 'zh' : 'en'
+            }, void 0, false, {
+                fileName: "[project]/App.tsx",
+                lineNumber: 156,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0))
+        ]
+    }, void 0, true, {
+        fileName: "[project]/App.tsx",
+        lineNumber: 101,
+        columnNumber: 9
+    }, ("TURBOPACK compile-time value", void 0));
+};
+const __TURBOPACK__default__export__ = App;
+}),
+];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__7a483e57._.js.map

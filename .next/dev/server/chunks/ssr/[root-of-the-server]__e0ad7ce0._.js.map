@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///E:/robinson-family-tree/src/providers/QueryProvider.tsx"],"sourcesContent":["'use client';\r\n\r\nimport React from 'react';\r\nimport { QueryClient, QueryClientProvider } from '@tanstack/react-query';\r\n\r\nconst queryClient = new QueryClient({\r\n  defaultOptions: {\r\n    queries: {\r\n      staleTime: 5 * 60 * 1000, // 5分钟\r\n      retry: 2,\r\n      refetchOnWindowFocus: false,\r\n    },\r\n  },\r\n});\r\n\r\ninterface QueryProviderProps {\r\n  children: React.ReactNode;\r\n}\r\n\r\nconst QueryProvider: React.FC<QueryProviderProps> = ({ children }) => {\r\n  return (\r\n    <QueryClientProvider client={queryClient}>\r\n      {children}\r\n    </QueryClientProvider>\r\n  );\r\n};\r\n\r\nexport default QueryProvider;"],"names":[],"mappings":";;;;;AAGA;AAAA;AAHA;;;AAKA,MAAM,cAAc,IAAI,4LAAW,CAAC;IAClC,gBAAgB;QACd,SAAS;YACP,WAAW,IAAI,KAAK;YACpB,OAAO;YACP,sBAAsB;QACxB;IACF;AACF;AAMA,MAAM,gBAA8C,CAAC,EAAE,QAAQ,EAAE;IAC/D,qBACE,8OAAC,6MAAmB;QAAC,QAAQ;kBAC1B;;;;;;AAGP;uCAEe"}}]
+}

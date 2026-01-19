@@ -1,0 +1,45 @@
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Member {
+  id        String   @id
+  name      String
+  nameZh    String?
+  role      String
+  birthDate String?
+  deathDate String?
+  location  String?
+  avatar    String
+  bio       String?
+  gender    String
+  isSelf    Boolean  @default(false)
+  x         Float    @default(0)
+  y         Float    @default(0)
+  extra     String?
+
+  connectionsAsSource Connection[] @relation("SourceMember")
+  connectionsAsTarget Connection[] @relation("TargetMember")
+}
+
+model Connection {
+  id           String  @id
+  sourceId     String
+  targetId     String
+  sourceHandle String
+  targetHandle String
+  label        String
+  labelZh      String?
+  color        String?
+  lineStyle    String?
+  extra        String?
+
+  source Member @relation("SourceMember", fields: [sourceId], references: [id], onDelete: Cascade)
+  target Member @relation("TargetMember", fields: [targetId], references: [id], onDelete: Cascade)
+}

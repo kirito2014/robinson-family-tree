@@ -1,0 +1,95 @@
+{
+  "node": {
+    "00426a7e4cadf7afffdf1c9766764168d718302b92": {
+      "workers": {
+        "app/page": {
+          "moduleId": 57526,
+          "async": false,
+          "exportedName": "getMembersAction",
+          "filename": "app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "exportedName": "getMembersAction",
+      "filename": "app/actions.ts"
+    },
+    "40bdfbea698c59dd2879421a45a56f1fa4fe5109a6": {
+      "workers": {
+        "app/page": {
+          "moduleId": 57526,
+          "async": false,
+          "exportedName": "saveMemberAction",
+          "filename": "app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "exportedName": "saveMemberAction",
+      "filename": "app/actions.ts"
+    },
+    "4074863e5d11f12596259c64117bb58347e8a88a02": {
+      "workers": {
+        "app/page": {
+          "moduleId": 57526,
+          "async": false,
+          "exportedName": "deleteMemberAction",
+          "filename": "app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "exportedName": "deleteMemberAction",
+      "filename": "app/actions.ts"
+    },
+    "003761513aa52799012788a487429b5d1b4d7e0a29": {
+      "workers": {
+        "app/page": {
+          "moduleId": 57526,
+          "async": false,
+          "exportedName": "getConnectionsAction",
+          "filename": "app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "exportedName": "getConnectionsAction",
+      "filename": "app/actions.ts"
+    },
+    "40ac8f13597e27c417bef8e29ed00511d1c0e50956": {
+      "workers": {
+        "app/page": {
+          "moduleId": 57526,
+          "async": false,
+          "exportedName": "saveConnectionAction",
+          "filename": "app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "exportedName": "saveConnectionAction",
+      "filename": "app/actions.ts"
+    },
+    "40c203df7974a181bbbf52d3fc46c31cd6001edfeb": {
+      "workers": {
+        "app/page": {
+          "moduleId": 57526,
+          "async": false,
+          "exportedName": "deleteConnectionAction",
+          "filename": "app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "exportedName": "deleteConnectionAction",
+      "filename": "app/actions.ts"
+    }
+  },
+  "edge": {}
+}
