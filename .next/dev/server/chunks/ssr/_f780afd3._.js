@@ -145,7 +145,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$providers$2f$UndoRedo
 ;
 ;
 const metadata = {
-    title: ("TURBOPACK compile-time value", "Robinson Family Tree") || "Robinson Family Tree",
+    title: ("TURBOPACK compile-time value", "aaa Family Tree") || "Robinson Family Tree",
     description: "A modern, interactive family heritage platform."
 };
 function RootLayout({ children }) {
