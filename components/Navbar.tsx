@@ -1,87 +1,149 @@
-import React from 'react';
-import { ViewMode } from '../types';
-import { translations } from '../locales';
-import { dbService } from '../services/dbService';
+'use client'
+
+import { Fragment, useState } from 'react'
+import Link from 'next/link'
+import { 
+  UserCircleIcon, 
+  ArrowRightStartOnRectangleIcon, 
+  Cog6ToothIcon, 
+  ClipboardDocumentIcon,
+  UsersIcon,
+  HomeIcon
+} from '@heroicons/react/24/outline'
+import { logout } from '@/app/actions/auth'
 
 interface NavbarProps {
-    currentView: ViewMode;
-    setView: (view: ViewMode) => void;
-    showChinese: boolean;
-    setShowChinese: (show: boolean) => void;
+  familyName: string
+  shareCode?: string | null
+  userNickname?: string | null
+  userAvatar?: string | null
 }
 
-const Navbar: React.FC<NavbarProps> = ({ currentView, setView, showChinese, setShowChinese }) => {
-    const t = translations[showChinese ? 'zh' : 'en'];
+export default function Navbar({ 
+  familyName, 
+  shareCode, 
+  userNickname = '用户', 
+  userAvatar 
+}: NavbarProps) {
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-    const handleExport = async () => {
-        const sql = await dbService.exportAsSql();
-        const blob = new Blob([sql], { type: 'text/sql' });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = `robinson_family_tree_${new Date().toISOString().split('T')[0]}.sql`;
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(url);
-    };
+  // 复制邀请码功能
+  const copyShareCode = () => {
+    if (shareCode) {
+      navigator.clipboard.writeText(shareCode)
+      alert('邀请码已复制到剪贴板')
+    }
+  }
 
-    return (
-        <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 bg-white/60 dark:bg-black/60 backdrop-blur-md border-b border-white/20 dark:border-white/10 shadow-sm">
-            <div className="flex items-center gap-6">
-                <div className="flex items-center gap-3 text-slate-900 dark:text-white cursor-pointer" onClick={() => setView('tree')}>
-                    <div className="p-2 bg-primary/20 rounded-lg text-primary-dark dark:text-primary">
-                        <span className="material-symbols-outlined text-2xl">account_tree</span>
-                    </div>
-                    <h1 className="text-xl font-bold tracking-tight hidden sm:block">{process.env.NEXT_PUBLIC_MY_FAMILY_INFO || t.appTitle}</h1>
-                </div>
+  return (
+    <nav className="bg-white shadow z-50 relative">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="flex h-16 justify-between">
+          
+          {/* 左侧：Logo 与 家族名称 */}
+          <div className="flex">
+            <div className="flex flex-shrink-0 items-center">
+              <Link href="/" className="flex items-center gap-2 font-bold text-xl text-indigo-600">
+                <UsersIcon className="h-8 w-8" />
+                <span>{familyName}</span>
+              </Link>
             </div>
+          </div>
 
-            <div className="flex items-center gap-4">
-                <nav className="hidden lg:flex items-center gap-2 mr-4">
-                    <button 
-                        onClick={() => setView('tree')}
-                        className={`px-4 py-2 rounded-xl text-sm font-bold transition-colors ${currentView === 'tree' ? 'bg-primary/20 text-primary-dark dark:text-primary' : 'hover:bg-black/5 dark:hover:bg-white/10'}`}
-                    >
-                        {t.tree}
-                    </button>
-                    <button 
-                        onClick={() => setView('directory')}
-                        className={`px-4 py-2 rounded-xl text-sm font-bold transition-colors ${currentView === 'directory' ? 'bg-primary/20 text-primary-dark dark:text-primary' : 'hover:bg-black/5 dark:hover:bg-white/10'}`}
-                    >
-                        {t.directory}
-                    </button>
-                </nav>
-                
-                {/* Language Toggle */}
-                <button 
-                    onClick={() => setShowChinese(!showChinese)}
-                    className="flex items-center gap-1.5 px-3 py-1.5 bg-gray-100 dark:bg-white/10 hover:bg-gray-200 dark:hover:bg-white/20 rounded-lg transition-all"
-                    title="Toggle Language"
+          {/* 右侧：功能区 */}
+          <div className="flex items-center gap-4">
+            
+            {/* 邀请码显示 (点击复制) */}
+            {shareCode && (
+              <button 
+                onClick={copyShareCode}
+                className="hidden sm:flex items-center gap-2 rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-600 hover:bg-gray-200 transition-colors"
+                title="点击复制邀请码"
+              >
+                <span>邀请码: <span className="font-mono font-bold text-indigo-600">{shareCode}</span></span>
+                <ClipboardDocumentIcon className="h-3 w-3" />
+              </button>
+            )}
+
+            {/* 用户头像下拉菜单 */}
+            <div className="relative ml-3">
+              <div>
+                <button
+                  type="button"
+                  onClick={() => setIsMenuOpen(!isMenuOpen)}
+                  className="flex rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                 >
-                    <span className="material-symbols-outlined text-[18px] text-gray-600 dark:text-gray-300">translate</span>
-                    <span className="text-xs font-bold font-mono text-gray-700 dark:text-gray-200 w-6 text-center">
-                        {showChinese ? 'CN' : 'EN'}
-                    </span>
+                  <span className="sr-only">打开用户菜单</span>
+                  {userAvatar ? (
+                    <img className="h-8 w-8 rounded-full object-cover" src={userAvatar} alt="" />
+                  ) : (
+                    <div className="h-8 w-8 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600 font-bold">
+                      {userNickname?.[0]?.toUpperCase()}
+                    </div>
+                  )}
                 </button>
+              </div>
 
-                <div className="flex items-center gap-2">
-                    <button 
-                        onClick={handleExport}
-                        className="flex items-center gap-2 px-4 py-2 bg-primary hover:bg-primary-dark text-slate-900 rounded-xl text-sm font-bold transition-colors shadow-sm active:scale-95"
+              {/* 下拉菜单内容 */}
+              {isMenuOpen && (
+                <>
+                  {/* 点击外部关闭遮罩 */}
+                  <div 
+                    className="fixed inset-0 z-10" 
+                    onClick={() => setIsMenuOpen(false)}
+                  />
+                  
+                  <div className="absolute right-0 z-20 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                    <div className="px-4 py-2 border-b border-gray-100">
+                      <p className="text-sm text-gray-500">登录为</p>
+                      <p className="text-sm font-medium text-gray-900 truncate">{userNickname}</p>
+                    </div>
+
+                    <Link
+                      href="/"
+                      onClick={() => setIsMenuOpen(false)}
+                      className="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     >
-                        <span className="material-symbols-outlined text-[20px]">database</span>
-                        <span className="hidden xl:inline">{t.export}</span>
-                    </button>
-                </div>
-                
-                <div className="w-px h-8 bg-gray-200 dark:bg-gray-700 mx-1"></div>
-                
-                <div className="h-10 w-10 rounded-full bg-cover bg-center border-2 border-white dark:border-gray-800 shadow-sm cursor-pointer hover:ring-2 hover:ring-primary transition-all" style={{backgroundImage: "url('https://picsum.photos/id/64/200/200')"}}>
-                </div>
-            </div>
-        </header>
-    );
-};
+                      <HomeIcon className="mr-2 h-4 w-4 text-gray-500" />
+                      返回首页
+                    </Link>
 
-export default Navbar;
+                    <Link
+                      href="/profile"
+                      onClick={() => setIsMenuOpen(false)}
+                      className="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    >
+                      <UserCircleIcon className="mr-2 h-4 w-4 text-gray-500" />
+                      个人中心
+                    </Link>
+
+                    <Link
+                      href="/family/manage"
+                      onClick={() => setIsMenuOpen(false)}
+                      className="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    >
+                      <Cog6ToothIcon className="mr-2 h-4 w-4 text-gray-500" />
+                      家族管理
+                    </Link>
+
+                    <div className="border-t border-gray-100 mt-1 pt-1">
+                      <form action={logout}>
+                        <button
+                          type="submit"
+                          className="flex w-full items-center px-4 py-2 text-sm text-red-600 hover:bg-red-50"
+                        >
+                          <ArrowRightStartOnRectangleIcon className="mr-2 h-4 w-4" />
+                          退出登录
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  )
+}

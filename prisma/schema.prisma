@@ -1,3 +1,4 @@
+// prisma/schema.prisma
 
 generator client {
   provider = "prisma-client-js"
@@ -8,38 +9,113 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Member {
-  id        String   @id
-  name      String
-  nameZh    String?
-  role      String
-  birthDate String?
-  deathDate String?
-  location  String?
-  avatar    String
-  bio       String?
-  gender    String
-  isSelf    Boolean  @default(false)
-  x         Float    @default(0)
-  y         Float    @default(0)
-  extra     String?
+// ---------------------------------------------------------
+// 1. User Center & Identity System
+// ---------------------------------------------------------
 
-  connectionsAsSource Connection[] @relation("SourceMember")
-  connectionsAsTarget Connection[] @relation("TargetMember")
+model User {
+  id            String    @id @default(cuid())
+  username      String    @unique
+  password      String
+  name          String?
+  nickname      String?
+  phone         String?   @unique
+  email         String?   @unique
+  location      String?
+  avatar        String?
+  
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  familyMemberships FamilyUser[]
+  createdFamilies   Family[]     @relation("FamilyCreator")
+}
+
+model Role {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  description String?
+  
+  users       FamilyUser[]
+}
+
+// ---------------------------------------------------------
+// 2. Family Tenant System
+// ---------------------------------------------------------
+
+model Family {
+  id          String   @id @default(cuid())
+  name        String
+  description String?
+  
+  shareCode   String?  @unique
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  creatorId   String
+  creator     User     @relation("FamilyCreator", fields: [creatorId], references: [id])
+
+  users       FamilyUser[]
+
+  treeMembers Member[]
+  connections Connection[]
+}
+
+// Join table: User <-> Family with roles
+model FamilyUser {
+  id        String   @id @default(cuid())
+  userId    String
+  familyId  String
+  roleId    String
+
+  joinedAt  DateTime @default(now())
+
+  user      User     @relation(fields: [userId], references: [id])
+  family    Family   @relation(fields: [familyId], references: [id])
+  role      Role     @relation(fields: [roleId], references: [id])
+
+  @@unique([userId, familyId])
+}
+
+// ---------------------------------------------------------
+// 3. Core Tree Data
+// ---------------------------------------------------------
+
+model Member {
+  id          String    @id @default(cuid())
+  firstName   String
+  lastName    String?
+  nickname    String?
+  gender      String    @default("male")
+  birthDate   DateTime?
+  deathDate   DateTime?
+  isAlive     Boolean   @default(true)
+  bio         String?
+  avatar      String?
+  
+  familyId    String
+  family      Family    @relation(fields: [familyId], references: [id], onDelete: Cascade)
+
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  connectionsFrom Connection[] @relation("FromMember")
+  connectionsTo   Connection[] @relation("ToMember")
 }
 
 model Connection {
-  id           String  @id
-  sourceId     String
-  targetId     String
-  sourceHandle String
-  targetHandle String
-  label        String
-  labelZh      String?
-  color        String?
-  lineStyle    String?
-  extra        String?
+  id          String   @id @default(cuid())
+  fromId      String
+  toId        String
+  type        String
+  
+  familyId    String
+  family      Family   @relation(fields: [familyId], references: [id], onDelete: Cascade)
 
-  source Member @relation("SourceMember", fields: [sourceId], references: [id], onDelete: Cascade)
-  target Member @relation("TargetMember", fields: [targetId], references: [id], onDelete: Cascade)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  fromMember  Member   @relation("FromMember", fields: [fromId], references: [id], onDelete: Cascade)
+  toMember    Member   @relation("ToMember", fields: [toId], references: [id], onDelete: Cascade)
 }
